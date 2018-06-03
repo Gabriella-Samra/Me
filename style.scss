@@ -1,12 +1,195 @@
+$readable-color: white;
+$highlight: #EC008C;
+$highlight-dark: #84CEEB;
+$background: #313131;
+$background-dark: #1B1B1B1B;
+$font-light: 300;
+$font-normal: 400;
+$circle-size: 150px;
+
+@mixin header-font() {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: $font-light;
+    font-style: normal;
+}
+
+@mixin content-font() {
+    font-family: 'Raleway', sans-serif;
+    font-weight: $font-normal;
+    font-style: normal;
+}
+
+@mixin subtitle() {
+    font-size: 12pt;
+}
+
+@mixin indent($n) {
+    margin-right: 50px;
+    margin-left: $n * 50px;
+}
+
+body {
+    background: $background;
+}
+
 .header {
-    height: 300px;
-    width: 100%;
-    background: url(/images/pom_puppies.jpg) no-repeat center center fixed;
     background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    
 
     &__links {
-        > a {
-            text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-self: center;
+        margin: 15px 0 0;
+    }
+
+    &__link {
+        display: flex;
+        text-decoration: none;
+        color: $highlight-dark;
+        align-self: flex-start;
+        margin: 0 20px;
+        font-size: 16pt;
+        font-weight: 400;
+        &:visited {
+            color: $highlight;
+        }
+        &:hover {
+            color: $readable-color;
+        }
+
+        &--contact {
+            color: $highlight;
         }
     }
+
+    &__me-section {
+        margin: 50px 0;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        align-self: center;
+        margin: 0;
+        font-size: 30pt;
+        font-weight: 500;
+    }
+
+    &__subtitle {
+        align-self: center;
+        margin: 0;
+        @include subtitle();
+    }
+}
+
+.circle {
+    background: $readable-color;
+    border: $highlight 3px solid;
+    width: $circle-size;
+    height: $circle-size;
+    border-radius: 50%;
+    overflow: hidden;
+
+    &--header {
+        align-self: center;
+    }
+
+    &__me {
+        background: url("../images/me.jpg") no-repeat center center;
+        background-size: cover; 
+        width: $circle-size;
+        height: $circle-size;
+    }
+}
+
+.main-content {
+    @include indent(1);
+}
+
+.separator-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+
+    &__line {
+        flex-grow: 1;
+        background: $highlight-dark;
+        height: 1px;
+    }
+
+    &__title {
+        color: $highlight-dark;
+        margin: 0 25px;
+    }
+}
+
+.expandable {
+    display: flex;
+    flex-direction: column;
+    &__button {
+        background: $background;
+        border: $highlight 1px solid;
+        border-radius: 5px;
+        width: 300px;
+        height: 60px;
+        color: $readable-color;
+        align-self: center;
+        transition: 0.5s;
+
+        &:hover {
+            background: $highlight;
+        }
+    }
+
+    &__item {
+        transition: 0.5s;
+        opacity: 1;
+        display: unset;
+
+        &--hidden {
+            display: none;
+            opacity: 0;
+        }
+    }
+}
+
+.project {
+    @include indent(2);
+
+    &__title {
+        font-weight: 600;
+    }
+
+    &__skills {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    &__skill {
+        list-style: none;
+        margin-right: 10px;
+        color: $highlight;
+    }
+}
+
+* {
+    @include content-font();
+    color: $readable-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include header-font();
 }
