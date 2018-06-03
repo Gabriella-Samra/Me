@@ -1,0 +1,22 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "I have my nice CV here",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node-sass style.scss --watch --output ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriella-Samra/Me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriella-Samra/Me/issues"
+  },
+  "homepage": "https://github.com/Gabriella-Samra/Me#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
