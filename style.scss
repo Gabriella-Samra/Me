@@ -55,7 +55,7 @@ body {
         font-size: 16pt;
         font-weight: 400;
         &:visited {
-            color: $highlight;
+            color: $highlight-dark;
         }
         &:hover {
             color: $readable-color;
@@ -63,6 +63,9 @@ body {
 
         &--contact {
             color: $highlight;
+            &:visited {
+                color: $highlight;
+            }
         }
     }
 
