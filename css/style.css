@@ -1,5 +1,12 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white; }
+
 body {
-  background: #313131; }
+  background: #313131;
+  margin: 0; }
 
 .header {
   background-size: cover;
@@ -20,13 +27,15 @@ body {
     font-size: 16pt;
     font-weight: 400; }
     .header__link:visited {
-      color: #EC008C; }
+      color: #84CEEB; }
     .header__link:hover {
       color: white; }
     .header__link--contact {
       color: #EC008C; }
+      .header__link--contact:visited {
+        color: #EC008C; }
   .header__me-section {
-    margin: 50px 0;
+    margin: 50px 0 0;
     align-self: center;
     display: flex;
     flex-direction: column; }
@@ -55,16 +64,27 @@ body {
     width: 150px;
     height: 150px; }
 
-.main-content {
+.project {
   margin-right: 50px;
-  margin-left: 50px; }
+  margin-left: 100px;
+  padding: 20px 0 0; }
+  .project__title {
+    font-weight: 600; }
+  .project__skills {
+    display: flex;
+    flex-direction: row;
+    padding: 0; }
+  .project__skill {
+    list-style: none;
+    margin-right: 10px;
+    color: #EC008C; }
 
 .separator-title {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 80%;
-  margin-left: 10%; }
+  padding: 30px 0 30px 10%; }
   .separator-title__line {
     flex-grow: 1;
     background: #84CEEB;
@@ -72,6 +92,109 @@ body {
   .separator-title__title {
     color: #84CEEB;
     margin: 0 25px; }
+  .separator-title--dark .separator-title__line {
+    background: #181818; }
+  .separator-title--dark .separator-title__title {
+    color: #181818; }
+
+.section {
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-bottom: 30px; }
+  .section--light {
+    background: #e4e4e4;
+    margin: 0; }
+
+.education {
+  margin-right: 50px;
+  margin-left: 50px; }
+  .education__cards {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center; }
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em;
+  background: #313131;
+  color: #eee;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.55), 0 5px 15px rgba(0, 0, 0, 0.55);
+  margin: 0 25px;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 2px;
+  transition: 0.3s ease-in-out; }
+  .education-card i {
+    color: inherit; }
+  .education-card__icon {
+    align-self: center;
+    font-size: 36pt; }
+  .education-card__title {
+    font-weight: 600;
+    align-self: center;
+    padding: 20px 0; }
+  .education-card__subtitle {
+    align-self: center; }
+  .education-card:hover {
+    transform: scale(1.1); }
+
+.courses-container {
+  margin-right: 50px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.course {
+  padding: 20px 0 0;
+  width: 50%;
+  align-self: center; }
+  .course__title {
+    font-weight: 600;
+    color: #181818;
+    width: 80%;
+    margin-left: 10%; }
+  .course__description {
+    color: #181818;
+    width: 80%;
+    margin-left: 10%; }
+
+.progress-bars {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  padding: 20px 6%; }
+  .progress-bar__title {
+    font-weight: 600;
+    padding: 0 0 10px; }
+  .progress-bar__bar {
+    display: flex;
+    flex-direction: row; }
+  .progress-bar__bar-segment {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 2s; }
+    .progress-bar__bar-segment--highlight {
+      background: #EC008C;
+      width: 0px; }
+    .progress-bar__bar-segment--highlight-dark {
+      background: #84CEEB;
+      width: 0px; }
+    .progress-bar__bar-segment--white {
+      background: white;
+      flex-grow: 1; }
 
 .expandable {
   display: flex;
@@ -95,26 +218,6 @@ body {
       display: none;
       opacity: 0; }
 
-.project {
-  margin-right: 50px;
-  margin-left: 100px; }
-  .project__title {
-    font-weight: 600; }
-  .project__skills {
-    display: flex;
-    flex-direction: row;
-    padding: 0; }
-  .project__skill {
-    list-style: none;
-    margin-right: 10px;
-    color: #EC008C; }
-
-* {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white; }
-
 h1,
 h2,
 h3,
@@ -123,4 +226,9 @@ h5,
 h6 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+  margin: 0; }
+
+p {
+  margin: 0;
+  font-size: 11pt; }

@@ -2,10 +2,13 @@ $readable-color: white;
 $highlight: #EC008C;
 $highlight-dark: #84CEEB;
 $background: #313131;
-$background-dark: #1B1B1B1B;
+$background-dark: darken($background, 10%);
+$background-light: lighten($background, 70%);
 $font-light: 300;
 $font-normal: 400;
 $circle-size: 150px;
+$border-thickness: 1px;
+$padding: 30px;
 
 @mixin header-font() {
     font-family: 'Work Sans', sans-serif;
@@ -28,8 +31,18 @@ $circle-size: 150px;
     margin-left: $n * 50px;
 }
 
+@mixin title() {
+    font-weight: 600;
+}
+
+html {    
+    @include content-font();
+    color: $readable-color;
+}
+
 body {
     background: $background;
+    margin: 0;
 }
 
 .header {
@@ -70,7 +83,7 @@ body {
     }
 
     &__me-section {
-        margin: 50px 0;
+        margin: 50px 0 0;
         align-self: center;
         display: flex;
         flex-direction: column;
@@ -110,8 +123,25 @@ body {
     }
 }
 
-.main-content {
-    @include indent(1);
+.project {
+    @include indent(2);
+    padding: 20px 0 0;
+
+    &__title {
+        @include title();
+    }
+
+    &__skills {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    &__skill {
+        list-style: none;
+        margin-right: 10px;
+        color: $highlight;
+    }
 }
 
 .separator-title {
@@ -119,7 +149,7 @@ body {
     flex-direction: row;
     align-items: center;
     width: 80%;
-    margin-left: 10%;
+    padding: $padding 0 $padding 10%;
 
     &__line {
         flex-grow: 1;
@@ -131,6 +161,149 @@ body {
         color: $highlight-dark;
         margin: 0 25px;
     }
+
+    &--dark {
+        .separator-title__line {
+            background: $background-dark;
+        }
+
+        .separator-title__title {
+            color: $background-dark;
+        }
+    }
+}
+
+.section {
+    @include indent(1);
+    padding-bottom: $padding;
+
+    &--light {
+        background: $background-light;
+        margin: 0;
+    }
+}
+
+.education {
+    @include indent(1);
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin-left: 5%;
+        justify-content: center;
+    }
+}
+
+.education-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em;
+    background: #313131;
+    color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.55), 0 5px 15px rgba(0, 0, 0, 0.55);
+    margin: 0 25px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 0.3s ease-in-out;
+
+    i {
+        color: inherit;
+    }
+
+    &__icon {
+        align-self: center;
+        font-size: 36pt;
+    }
+
+    &__title {
+        @include title();
+        align-self: center;
+        padding: 20px 0;
+    }
+
+    &__subtitle {
+        align-self: center;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.courses-container {
+    @include indent(2);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.course {    
+    padding: 20px 0 0;
+    width: 50%;
+    align-self: center;
+
+    &__title {
+        @include title();
+        color: $background-dark;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    &__description {
+        color: $background-dark;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+.progress-bars {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    padding: 20px 6%;
+
+    &__title {
+        @include title();
+        padding: 0 0 10px;
+    }
+
+    &__bar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__bar-segment {
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        transition: 2s;
+
+        &--highlight {
+            background: $highlight;
+            width: 0px;
+        }
+
+        &--highlight-dark {
+            background: $highlight-dark;
+            width: 0px;
+        }
+
+        &--white {
+            background: white;
+            flex-grow: 1;
+        }
+    }
 }
 
 .expandable {
@@ -138,7 +311,7 @@ body {
     flex-direction: column;
     &__button {
         background: $background;
-        border: $highlight 1px solid;
+        border: $highlight $border-thickness solid;
         border-radius: 5px;
         width: 300px;
         height: 60px;
@@ -163,31 +336,6 @@ body {
     }
 }
 
-.project {
-    @include indent(2);
-
-    &__title {
-        font-weight: 600;
-    }
-
-    &__skills {
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-    }
-
-    &__skill {
-        list-style: none;
-        margin-right: 10px;
-        color: $highlight;
-    }
-}
-
-* {
-    @include content-font();
-    color: $readable-color;
-}
-
 h1,
 h2,
 h3,
@@ -195,4 +343,10 @@ h4,
 h5,
 h6 {
     @include header-font();
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 11pt;
 }

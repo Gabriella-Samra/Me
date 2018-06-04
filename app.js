@@ -42,9 +42,9 @@ function initializeExpanders() {
     $(".expandable__button")
         .click(function (event) {
             var button = $(event.target);
-            var isExpanded = $(button).data("is-expanded");
-            var defaultText = $(button).data("default");
-            var expandedText = $(button).data("expanded");
+            var isExpanded = button.data("is-expanded");
+            var defaultText = button.data("default");
+            var expandedText = button.data("expanded");
             var block = button.closest(".expandable").first();
             var items = block
                 .children(".expandable__item")
@@ -63,7 +63,17 @@ function initializeExpanders() {
         });
 }
 
+function growProgressBarsWhenOnScreen() {
+    var os = new OnScreen();
+    os.on("enter", "[data-percent]", function (element, event) {
+        var bar = $(element);
+        var desiredPercent = bar.data("percent");
+        bar.css("width", desiredPercent);
+    });
+}
+
 $(document).ready(function () {
     linkAllIdAnchors();
     initializeExpanders();
+    growProgressBarsWhenOnScreen();
 });
