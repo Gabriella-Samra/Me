@@ -272,15 +272,21 @@ body {
     flex-direction: column;
     width: 21%;
     padding: 20px 6%;
+    align-self: flex-end;
 
     &__title {
         @include title();
-        padding: 0 0 10px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-align: center; 
     }
 
     &__bar {
         display: flex;
         flex-direction: row;
+        padding: 10px 0 0;
     }
 
     &__bar-segment {

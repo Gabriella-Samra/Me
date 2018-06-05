@@ -174,13 +174,17 @@ body {
   display: flex;
   flex-direction: column;
   width: 21%;
-  padding: 20px 6%; }
+  padding: 20px 6%;
+  align-self: flex-end; }
   .progress-bar__title {
     font-weight: 600;
-    padding: 0 0 10px; }
+    text-align: center; }
+  .progress-bar__subtitle {
+    text-align: center; }
   .progress-bar__bar {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    padding: 10px 0 0; }
   .progress-bar__bar-segment {
     height: 30px;
     display: flex;
