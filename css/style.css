@@ -200,6 +200,69 @@ body {
       background: white;
       flex-grow: 1; }
 
+.list-cards {
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+
+.list-card {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  margin: 75px 3% 0; }
+  .list-card__icon {
+    background: white;
+    border: #EC008C 3px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: -75px;
+    margin-bottom: -50px; }
+    .list-card__icon--low {
+      background: url("../images/me.jpg") no-repeat center center;
+      background-size: cover;
+      width: 150px;
+      height: 150px; }
+  .list-card__ribbon {
+    background: #EC008C;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -10px 0 0 0 #EC008C, 10px 0 0 0 #EC008C; }
+  .list-card__title {
+    color: white; }
+  .list-card__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; }
+
+.titled-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  width: 40%; }
+  .titled-icon__icon {
+    width: 150px;
+    height: 150px; }
+    .titled-icon__icon > img {
+      width: 100%;
+      height: 100%; }
+  .titled-icon__title {
+    color: #313131;
+    font-size: 12pt;
+    padding-top: 10px;
+    font-weight: 600; }
+
 .expandable {
   display: flex;
   flex-direction: column; }
