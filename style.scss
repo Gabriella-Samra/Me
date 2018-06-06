@@ -46,17 +46,19 @@ body {
 }
 
 .header {
-    background-size: cover; 
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
+    align-items: center;
+    justify-content: center;    
 
     &__links {
         display: flex;
         flex-direction: row;
         justify-items: center;
-        align-self: center;
         margin: 15px 0 0;
+        flex-wrap: wrap;
     }
 
     &__link {
@@ -84,20 +86,17 @@ body {
 
     &__me-section {
         margin: 50px 0 0;
-        align-self: center;
         display: flex;
         flex-direction: column;
     }
 
     &__title {
-        align-self: center;
         margin: 0;
         font-size: 30pt;
         font-weight: 500;
     }
 
     &__subtitle {
-        align-self: center;
         margin: 0;
         @include subtitle();
     }

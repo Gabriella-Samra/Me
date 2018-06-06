@@ -11,13 +11,16 @@ body {
 .header {
   background-size: cover;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center; }
   .header__links {
     display: flex;
     flex-direction: row;
     justify-items: center;
-    align-self: center;
-    margin: 15px 0 0; }
+    margin: 15px 0 0;
+    flex-wrap: wrap; }
   .header__link {
     display: flex;
     text-decoration: none;
@@ -36,16 +39,13 @@ body {
         color: #EC008C; }
   .header__me-section {
     margin: 50px 0 0;
-    align-self: center;
     display: flex;
     flex-direction: column; }
   .header__title {
-    align-self: center;
     margin: 0;
     font-size: 30pt;
     font-weight: 500; }
   .header__subtitle {
-    align-self: center;
     margin: 0;
     font-size: 12pt; }
 
