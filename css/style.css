@@ -263,6 +263,29 @@ body {
     padding-top: 10px;
     font-weight: 600; }
 
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .contact-links :last-child {
+    margin: 0; }
+
+.contact-link {
+  background: white;
+  border: #EC008C 3px solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 70px 0 0; }
+  .contact-link > img {
+    width: 70%;
+    height: 70%; }
+
 .expandable {
   display: flex;
   flex-direction: column; }
