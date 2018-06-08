@@ -364,7 +364,16 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: flex-start;
         flex-wrap: wrap;
+
+        :first-child {
+            margin-left: 5%;
+        }
+    
+        :nth-child(4) {
+            margin-left: 5%;
+        }
     }
 }
 
@@ -372,12 +381,184 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
-    width: 40%;
+    justify-content: center;
+    padding: 10px 0;
+    margin-right: 5%;
+    width: (100%-20%)/3;
 
     &__icon {
         width: 150px;
         height: 150px;
+        background-size: cover; 
+        transition: 0.3s;
+
+        &--adobe-animate {
+            background: url("../images/Adobe Animate/Adobe Animate.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Adobe Animate/Adobe Animate Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--adobe-indesign {
+            background: url("../images/Adobe InDesign/Adobe InDesign.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Adobe InDesign/Adobe InDesign Colour.svg") no-repeat center center;
+            } 
+        }
+
+        &--adobe-illustrator {
+            background: url("../images/Adobe Illustrator/Adobe Illustrator.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Adobe Illustrator/Adobe Illustrator Colour.svg") no-repeat center center;
+            } 
+        }
+
+        &--asana {
+            background: url("../images/Asana/Asana.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Asana/Asana Colour.svg") no-repeat center center;
+            } 
+        }
+
+        &--behance {
+            background: url("../images/Behance/Behance.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Behance/Behance Colour.svg") no-repeat center center;
+            } 
+        }
+
+        &--adobe-photoshop {
+            background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Adobe Photoshop/Adobe Photoshop Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--google-data-studio {
+            background: url("../images/Google Data Studio/Google Data Studio.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Google Data Studio/Google Data Studio Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--google-tag-manager {
+            background: url("../images/Google Tag Manager/Google Tag Manager.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Google Tag Manager/Google Tag Manager Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--confluence {
+            background: url("../images/Confluence/Confluence.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Confluence/Confluence Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--mailchimp {
+            background: url("../images/Mailchimp/Mailchimp.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Mailchimp/Mailchimp Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--infusionsoft {
+            background: url("../images/Infusionsoft/Infusionsoft.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Infusionsoft/Infusionsoft Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--craft-cms {
+            background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Craft CMS/CraftCMS Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--jira {
+            background: url("../images/JIRA/Jira.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/JIRA/Jira Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--google-analytics {
+            background: url("../images/Google Analytics/Google Analytics.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Google Analytics/Google Analytics Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--google-docs {
+            background: url("../images/Google Docs/Google Docs.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Google Docs/Google Docs Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--google-drive {
+            background: url("../images/Google Drive/Google Drive.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Google Drive/Google Drive Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--google-forms {
+            background: url("../images/Google Forms/Google Forms.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Google Forms/Google Forms Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--google-sheets {
+            background: url("../images/Google Sheets/Google Sheets.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Google Sheets/Google Sheets Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--microsoft-excel {
+            background: url("../images/Miscrosoft Excel/Miscrosoft Excel.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Miscrosoft Excel/Miscrosoft Excel Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--microsoft-powerpoint {
+            background: url("../images/PowerPoint/PowerPoint.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/PowerPoint/PowerPoint Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--microsoft-word {
+            background: url("../images/Microsoft Word/Miscrosoft Word.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Microsoft Word/Miscrosoft Word Colour.svg") no-repeat center center;
+            }
+        }
 
         > img {
             width: 100%;

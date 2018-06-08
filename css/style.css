@@ -243,17 +243,110 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap; }
+    .list-card__content :first-child {
+      margin-left: 5%; }
+    .list-card__content :nth-child(4) {
+      margin-left: 5%; }
 
 .titled-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5%;
-  width: 40%; }
+  justify-content: center;
+  padding: 10px 0;
+  margin-right: 5%;
+  width: 26.66667%; }
   .titled-icon__icon {
     width: 150px;
-    height: 150px; }
+    height: 150px;
+    background-size: cover;
+    transition: 0.3s; }
+    .titled-icon__icon--adobe-animate {
+      background: url("../images/Adobe Animate/Adobe Animate.svg") no-repeat center center; }
+      .titled-icon__icon--adobe-animate:hover {
+        background: url("../images/Adobe Animate/Adobe Animate Colour.svg") no-repeat center center; }
+    .titled-icon__icon--adobe-indesign {
+      background: url("../images/Adobe InDesign/Adobe InDesign.svg") no-repeat center center; }
+      .titled-icon__icon--adobe-indesign:hover {
+        background: url("../images/Adobe InDesign/Adobe InDesign Colour.svg") no-repeat center center; }
+    .titled-icon__icon--adobe-illustrator {
+      background: url("../images/Adobe Illustrator/Adobe Illustrator.svg") no-repeat center center; }
+      .titled-icon__icon--adobe-illustrator:hover {
+        background: url("../images/Adobe Illustrator/Adobe Illustrator Colour.svg") no-repeat center center; }
+    .titled-icon__icon--asana {
+      background: url("../images/Asana/Asana.svg") no-repeat center center; }
+      .titled-icon__icon--asana:hover {
+        background: url("../images/Asana/Asana Colour.svg") no-repeat center center; }
+    .titled-icon__icon--behance {
+      background: url("../images/Behance/Behance.svg") no-repeat center center; }
+      .titled-icon__icon--behance:hover {
+        background: url("../images/Behance/Behance Colour.svg") no-repeat center center; }
+    .titled-icon__icon--adobe-photoshop {
+      background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center; }
+      .titled-icon__icon--adobe-photoshop:hover {
+        background: url("../images/Adobe Photoshop/Adobe Photoshop Colour.svg") no-repeat center center; }
+    .titled-icon__icon--google-data-studio {
+      background: url("../images/Google Data Studio/Google Data Studio.svg") no-repeat center center; }
+      .titled-icon__icon--google-data-studio:hover {
+        background: url("../images/Google Data Studio/Google Data Studio Colour.svg") no-repeat center center; }
+    .titled-icon__icon--google-tag-manager {
+      background: url("../images/Google Tag Manager/Google Tag Manager.svg") no-repeat center center; }
+      .titled-icon__icon--google-tag-manager:hover {
+        background: url("../images/Google Tag Manager/Google Tag Manager Colour.svg") no-repeat center center; }
+    .titled-icon__icon--confluence {
+      background: url("../images/Confluence/Confluence.svg") no-repeat center center; }
+      .titled-icon__icon--confluence:hover {
+        background: url("../images/Confluence/Confluence Colour.svg") no-repeat center center; }
+    .titled-icon__icon--mailchimp {
+      background: url("../images/Mailchimp/Mailchimp.svg") no-repeat center center; }
+      .titled-icon__icon--mailchimp:hover {
+        background: url("../images/Mailchimp/Mailchimp Colour.svg") no-repeat center center; }
+    .titled-icon__icon--infusionsoft {
+      background: url("../images/Infusionsoft/Infusionsoft.svg") no-repeat center center; }
+      .titled-icon__icon--infusionsoft:hover {
+        background: url("../images/Infusionsoft/Infusionsoft Colour.svg") no-repeat center center; }
+    .titled-icon__icon--craft-cms {
+      background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center; }
+      .titled-icon__icon--craft-cms:hover {
+        background: url("../images/Craft CMS/CraftCMS Colour.svg") no-repeat center center; }
+    .titled-icon__icon--jira {
+      background: url("../images/JIRA/Jira.svg") no-repeat center center; }
+      .titled-icon__icon--jira:hover {
+        background: url("../images/JIRA/Jira Colour.svg") no-repeat center center; }
+    .titled-icon__icon--google-analytics {
+      background: url("../images/Google Analytics/Google Analytics.svg") no-repeat center center; }
+      .titled-icon__icon--google-analytics:hover {
+        background: url("../images/Google Analytics/Google Analytics Colour.svg") no-repeat center center; }
+    .titled-icon__icon--google-docs {
+      background: url("../images/Google Docs/Google Docs.svg") no-repeat center center; }
+      .titled-icon__icon--google-docs:hover {
+        background: url("../images/Google Docs/Google Docs Colour.svg") no-repeat center center; }
+    .titled-icon__icon--google-drive {
+      background: url("../images/Google Drive/Google Drive.svg") no-repeat center center; }
+      .titled-icon__icon--google-drive:hover {
+        background: url("../images/Google Drive/Google Drive Colour.svg") no-repeat center center; }
+    .titled-icon__icon--google-forms {
+      background: url("../images/Google Forms/Google Forms.svg") no-repeat center center; }
+      .titled-icon__icon--google-forms:hover {
+        background: url("../images/Google Forms/Google Forms Colour.svg") no-repeat center center; }
+    .titled-icon__icon--google-sheets {
+      background: url("../images/Google Sheets/Google Sheets.svg") no-repeat center center; }
+      .titled-icon__icon--google-sheets:hover {
+        background: url("../images/Google Sheets/Google Sheets Colour.svg") no-repeat center center; }
+    .titled-icon__icon--microsoft-excel {
+      background: url("../images/Miscrosoft Excel/Miscrosoft Excel.svg") no-repeat center center; }
+      .titled-icon__icon--microsoft-excel:hover {
+        background: url("../images/Miscrosoft Excel/Miscrosoft Excel Colour.svg") no-repeat center center; }
+    .titled-icon__icon--microsoft-powerpoint {
+      background: url("../images/PowerPoint/PowerPoint.svg") no-repeat center center; }
+      .titled-icon__icon--microsoft-powerpoint:hover {
+        background: url("../images/PowerPoint/PowerPoint Colour.svg") no-repeat center center; }
+    .titled-icon__icon--microsoft-word {
+      background: url("../images/Microsoft Word/Miscrosoft Word.svg") no-repeat center center; }
+      .titled-icon__icon--microsoft-word:hover {
+        background: url("../images/Microsoft Word/Miscrosoft Word Colour.svg") no-repeat center center; }
     .titled-icon__icon > img {
       width: 100%;
       height: 100%; }
