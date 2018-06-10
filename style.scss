@@ -10,19 +10,19 @@ $circle-size: 150px;
 $border-thickness: 1px;
 $padding: 30px;
 
-@mixin header-font() {
+@mixin header-font {
     font-family: 'Work Sans', sans-serif;
     font-weight: $font-light;
     font-style: normal;
 }
 
-@mixin content-font() {
+@mixin content-font {
     font-family: 'Raleway', sans-serif;
     font-weight: $font-normal;
     font-style: normal;
 }
 
-@mixin subtitle() {
+@mixin subtitle {
     font-size: 12pt;
 }
 
@@ -31,12 +31,13 @@ $padding: 30px;
     margin-left: $n * 50px;
 }
 
-@mixin title() {
+@mixin title {
     font-weight: 600;
 }
 
-html {    
-    @include content-font();
+html {
+    @include content-font;
+
     color: $readable-color;
 }
 
@@ -51,7 +52,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 
     &__links {
         display: flex;
@@ -69,15 +70,18 @@ body {
         margin: 0 20px;
         font-size: 16pt;
         font-weight: 400;
+
         &:visited {
             color: $highlight-dark;
         }
+
         &:hover {
             color: $readable-color;
         }
 
         &--contact {
             color: $highlight;
+
             &:visited {
                 color: $highlight;
             }
@@ -98,7 +102,10 @@ body {
 
     &__subtitle {
         margin: 0;
-        @include subtitle();
+
+        @include subtitle;
+
+        align-self: center;
     }
 }
 
@@ -116,30 +123,46 @@ body {
 
     &__me {
         background: url("../images/me.jpg") no-repeat center center;
-        background-size: cover; 
+        background-size: cover;
         width: $circle-size;
         height: $circle-size;
     }
 }
 
+.text-section {
+    margin: 0 20%;
+}
+
+.employer {
+    padding: 0 0 30px;
+}
+
 .project {
     @include indent(2);
+
     padding: 20px 0 0;
 
     &__title {
-        @include title();
+        @include title;
     }
 
     &__skills {
         display: flex;
         flex-direction: row;
         padding: 0;
+        flex-wrap: wrap;
     }
 
     &__skill {
         list-style: none;
         margin-right: 10px;
-        color: $highlight;
+        color: $readable-color;
+        background-color: $highlight;
+        padding: 5px 10px;
+        border-radius: 30px;
+        margin: 5px;
+        text-transform: lowercase;
+        font-size: 10pt;
     }
 }
 
@@ -174,6 +197,7 @@ body {
 
 .section {
     @include indent(1);
+
     padding-bottom: $padding;
 
     &--light {
@@ -219,7 +243,8 @@ body {
     }
 
     &__title {
-        @include title();
+        @include title;
+
         align-self: center;
         padding: 20px 0;
     }
@@ -235,18 +260,20 @@ body {
 
 .courses-container {
     @include indent(2);
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.course {    
+.course {
     padding: 20px 0 0;
     width: 50%;
     align-self: center;
 
     &__title {
-        @include title();
+        @include title;
+
         color: $background-dark;
         width: 80%;
         margin-left: 10%;
@@ -274,12 +301,13 @@ body {
     align-self: flex-end;
 
     &__title {
-        @include title();
+        @include title;
+
         text-align: center;
     }
 
     &__subtitle {
-        text-align: center; 
+        text-align: center;
     }
 
     &__bar {
@@ -325,7 +353,7 @@ body {
     background: white;
     border-radius: 8px;
     margin: ($circle-size / 2) 3% 0;
-    
+
     &__icon {
         background: $readable-color;
         border: $highlight 3px solid;
@@ -336,10 +364,10 @@ body {
         position: relative;
         top: -($circle-size / 2);
         margin-bottom: -($circle-size / 3);
-    
+
         &--low {
             background: url("../images/me.jpg") no-repeat center center;
-            background-size: cover; 
+            background-size: cover;
             width: $circle-size;
             height: $circle-size;
         }
@@ -347,7 +375,7 @@ body {
 
     &__ribbon {
         background: $highlight;
-        width:100%;
+        width: 100%;
         height: 50px;
         display: flex;
         flex-direction: column;
@@ -367,11 +395,11 @@ body {
         align-items: flex-start;
         flex-wrap: wrap;
 
-        :first-child {
+        > :first-child {
             margin-left: 5%;
         }
-    
-        :nth-child(4) {
+
+        > :nth-child(3n+1) {
             margin-left: 5%;
         }
     }
@@ -384,12 +412,13 @@ body {
     justify-content: center;
     padding: 10px 0;
     margin-right: 5%;
-    width: (100%-20%)/3;
+    width: (100% - 20%) / 3;
+    text-align: center;
 
     &__icon {
-        width: 150px;
-        height: 150px;
-        background-size: cover; 
+        width: 100px;
+        height: 100px;
+        background-size: cover;
         transition: 0.3s;
 
         &--adobe-animate {
@@ -405,7 +434,7 @@ body {
 
             &:hover {
                 background: url("../images/Adobe InDesign/Adobe InDesign Colour.svg") no-repeat center center;
-            } 
+            }
         }
 
         &--adobe-illustrator {
@@ -413,7 +442,7 @@ body {
 
             &:hover {
                 background: url("../images/Adobe Illustrator/Adobe Illustrator Colour.svg") no-repeat center center;
-            } 
+            }
         }
 
         &--asana {
@@ -421,7 +450,7 @@ body {
 
             &:hover {
                 background: url("../images/Asana/Asana Colour.svg") no-repeat center center;
-            } 
+            }
         }
 
         &--behance {
@@ -429,7 +458,7 @@ body {
 
             &:hover {
                 background: url("../images/Behance/Behance Colour.svg") no-repeat center center;
-            } 
+            }
         }
 
         &--adobe-photoshop {
@@ -606,15 +635,17 @@ body {
 .expandable {
     display: flex;
     flex-direction: column;
+
     &__button {
         background: $background;
         border: $highlight $border-thickness solid;
         border-radius: 5px;
         width: 300px;
-        height: 60px;
+        height: 50px;
         color: $readable-color;
         align-self: center;
         transition: 0.5s;
+        margin: 40px 0 0;
 
         &:hover {
             background: $highlight;
@@ -639,7 +670,8 @@ h3,
 h4,
 h5,
 h6 {
-    @include header-font();
+    @include header-font;
+
     margin: 0;
 }
 

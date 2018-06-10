@@ -47,7 +47,8 @@ body {
     font-weight: 500; }
   .header__subtitle {
     margin: 0;
-    font-size: 12pt; }
+    font-size: 12pt;
+    align-self: center; }
 
 .circle {
   background: white;
@@ -64,6 +65,12 @@ body {
     width: 150px;
     height: 150px; }
 
+.text-section {
+  margin: 0 20%; }
+
+.employer {
+  padding: 0 0 30px; }
+
 .project {
   margin-right: 50px;
   margin-left: 100px;
@@ -73,11 +80,18 @@ body {
   .project__skills {
     display: flex;
     flex-direction: row;
-    padding: 0; }
+    padding: 0;
+    flex-wrap: wrap; }
   .project__skill {
     list-style: none;
     margin-right: 10px;
-    color: #EC008C; }
+    color: white;
+    background-color: #EC008C;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 5px;
+    text-transform: lowercase;
+    font-size: 10pt; }
 
 .separator-title {
   display: flex;
@@ -245,9 +259,9 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap; }
-    .list-card__content :first-child {
+    .list-card__content > :first-child {
       margin-left: 5%; }
-    .list-card__content :nth-child(4) {
+    .list-card__content > :nth-child(3n+1) {
       margin-left: 5%; }
 
 .titled-icon {
@@ -257,10 +271,11 @@ body {
   justify-content: center;
   padding: 10px 0;
   margin-right: 5%;
-  width: 26.66667%; }
+  width: 26.66667%;
+  text-align: center; }
   .titled-icon__icon {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-size: cover;
     transition: 0.3s; }
     .titled-icon__icon--adobe-animate {
@@ -387,10 +402,11 @@ body {
     border: #EC008C 1px solid;
     border-radius: 5px;
     width: 300px;
-    height: 60px;
+    height: 50px;
     color: white;
     align-self: center;
-    transition: 0.5s; }
+    transition: 0.5s;
+    margin: 40px 0 0; }
     .expandable__button:hover {
       background: #EC008C; }
   .expandable__item {
