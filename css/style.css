@@ -2,7 +2,7 @@ html {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: white; }
+  color: #e6e6e6; }
 
 body {
   background: #313131;
@@ -24,19 +24,19 @@ body {
   .header__link {
     display: flex;
     text-decoration: none;
-    color: #84CEEB;
+    color: tomato;
     align-self: flex-start;
     margin: 0 20px;
     font-size: 16pt;
     font-weight: 400; }
     .header__link:visited {
-      color: #84CEEB; }
+      color: tomato; }
     .header__link:hover {
-      color: white; }
+      color: #e6e6e6; }
     .header__link--contact {
-      color: #EC008C; }
+      color: #e6e6e6; }
       .header__link--contact:visited {
-        color: #EC008C; }
+        color: tomato; }
   .header__me-section {
     margin: 50px 0 0;
     display: flex;
@@ -51,8 +51,8 @@ body {
     align-self: center; }
 
 .circle {
-  background: white;
-  border: #EC008C 3px solid;
+  background: #e6e6e6;
+  border: tomato 3px solid;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -66,27 +66,31 @@ body {
     height: 150px; }
 
 .text-section {
-  margin: 0 20%; }
+  margin: 0 25%; }
 
 .employer {
   padding: 0 0 30px; }
+  .employer__title {
+    font-size: 18pt;
+    line-height: 22pt; }
 
 .project {
-  margin-right: 50px;
-  margin-left: 100px;
   padding: 20px 0 0; }
   .project__title {
-    font-weight: 600; }
+    font-weight: 300;
+    font-size: 16pt;
+    line-height: 20pt; }
   .project__skills {
     display: flex;
     flex-direction: row;
     padding: 0;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin: 5px 0; }
   .project__skill {
     list-style: none;
     margin-right: 10px;
-    color: white;
-    background-color: #EC008C;
+    color: #e6e6e6;
+    background-color: tomato;
     padding: 5px 10px;
     border-radius: 30px;
     margin: 5px;
@@ -101,10 +105,10 @@ body {
   padding: 30px 0 30px 10%; }
   .separator-title__line {
     flex-grow: 1;
-    background: #84CEEB;
+    background: tomato;
     height: 1px; }
   .separator-title__title {
-    color: #84CEEB;
+    color: tomato;
     margin: 0 25px; }
   .separator-title--dark .separator-title__line {
     background: #181818; }
@@ -149,7 +153,7 @@ body {
     align-self: center;
     font-size: 36pt; }
   .education-card__title {
-    font-weight: 600;
+    font-weight: 300;
     align-self: center;
     padding: 20px 0; }
   .education-card__subtitle {
@@ -162,21 +166,66 @@ body {
   margin-left: 100px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
 
 .course {
-  padding: 20px 0 0;
-  width: 50%;
-  align-self: center; }
+  margin: 20px 0 0;
+  width: 30%;
+  align-self: center;
+  border-radius: 10px;
+  display: flex;
+  height: 150px;
+  overflow: hidden; }
+  .course__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 1;
+    text-align: center; }
+    .course__content--2018 {
+      background: linear-gradient(to right, #ff8047, #f4374c); }
+    .course__content--2017 {
+      background: linear-gradient(to right, #47fff8, #3771f4); }
+    .course__content--2016 {
+      background: linear-gradient(to right, #f437d0, #8e47ff); }
   .course__title {
-    font-weight: 600;
-    color: #181818;
+    font-weight: 300;
+    color: white;
     width: 80%;
-    margin-left: 10%; }
+    margin-left: 0;
+    padding: 5px 0;
+    font-weight: 600; }
+  .course__tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0; }
+  .course__tag {
+    padding: 0 5px; }
+  .course__year-container {
+    background: white;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .course__year {
+    transform: rotate(270deg);
+    font-size: 30pt; }
+    .course__year--2018 {
+      color: #f4374c; }
+    .course__year--2017 {
+      color: #3771f4; }
+    .course__year--2016 {
+      color: #8e47ff; }
   .course__description {
     color: #181818;
     width: 80%;
-    margin-left: 10%; }
+    margin-left: 10%;
+    display: none; }
 
 .progress-bars {
   width: 100%;
@@ -191,7 +240,7 @@ body {
   padding: 20px 6%;
   align-self: flex-end; }
   .progress-bar__title {
-    font-weight: 600;
+    font-weight: 300;
     text-align: center; }
   .progress-bar__subtitle {
     text-align: center; }
@@ -205,10 +254,10 @@ body {
     flex-direction: column;
     transition: 2s; }
     .progress-bar__bar-segment--highlight {
-      background: #EC008C;
+      background: tomato;
       width: 0px; }
     .progress-bar__bar-segment--highlight-dark {
-      background: #84CEEB;
+      background: tomato;
       width: 0px; }
     .progress-bar__bar-segment--white {
       background: white;
@@ -228,8 +277,8 @@ body {
   border-radius: 8px;
   margin: 75px 3% 0; }
   .list-card__icon {
-    background: white;
-    border: #EC008C 3px solid;
+    background: #e6e6e6;
+    border: tomato 3px solid;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -243,16 +292,16 @@ body {
       width: 150px;
       height: 150px; }
   .list-card__ribbon {
-    background: #EC008C;
+    background: tomato;
     width: 100%;
     height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: -10px 0 0 0 #EC008C, 10px 0 0 0 #EC008C; }
+    box-shadow: -10px 0 0 0 tomato, 10px 0 0 0 tomato; }
   .list-card__title {
-    color: white; }
+    color: #e6e6e6; }
   .list-card__content {
     display: flex;
     flex-direction: row;
@@ -369,7 +418,8 @@ body {
     color: #313131;
     font-size: 12pt;
     padding-top: 10px;
-    font-weight: 600; }
+    font-weight: 600;
+    text-align: unset; }
 
 .contact-links {
   display: flex;
@@ -381,7 +431,7 @@ body {
 
 .contact-link {
   background: white;
-  border: #EC008C 3px solid;
+  border: tomato 3px solid;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -399,16 +449,16 @@ body {
   flex-direction: column; }
   .expandable__button {
     background: #313131;
-    border: #EC008C 1px solid;
+    border: tomato 1px solid;
     border-radius: 5px;
     width: 300px;
     height: 50px;
-    color: white;
+    color: #e6e6e6;
     align-self: center;
     transition: 0.5s;
     margin: 40px 0 0; }
     .expandable__button:hover {
-      background: #EC008C; }
+      background: tomato; }
   .expandable__item {
     transition: 0.5s;
     opacity: 1;
@@ -423,11 +473,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Work Sans script=all', sans-serif;
+  font-weight: 600;
   font-style: normal;
+  color: steelblue;
   margin: 0; }
 
 p {
   margin: 0;
-  font-size: 11pt; }
+  font-size: 12pt;
+  line-height: 20pt;
+  text-align: justify; }

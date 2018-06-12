@@ -2,11 +2,12 @@
 
 <head>
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://unpkg.com/onscreen/dist/on-screen.umd.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
 </head>
@@ -45,8 +46,11 @@
                     </h3>
                     <p class="employer__description">
                         To date I’ve worked on research and supplier relations for Stagecoach’s portfolio of mobile and web applications including
-                        Virgin Trains and Megabus. I’ve been responsible for ensuring that our product development is data-driven,
-                        that all stakeholders’ needs are represented, and that our transnational departments are well integrated.
+                        Stagecoach UK Bus, Virgin Trains, and Megabus. My projects at Stagecoach have been design and supplier
+                        focused which has allowed me to gain more experience into the pre-development parts of product development.
+                        It has also given me the chance to approach software planning from a data driven perspective, including
+                        customer validation for both designs and backlog, and it has provided me with the opportunity to
+                        deal with the long-term challenges of mature products.
                     </p>
                     <div class="expandable">
                         <div class="project expandable__item">
@@ -294,112 +298,545 @@
                         </div>
                     </div>
                 </div>
-                <div id="courses">
-                    <div class="separator-title separator-title--dark">
-                        <div class="separator-title__line"></div>
-                        <h2 class="separator-title__title">Courses</h2>
-                        <div class="separator-title__line"></div>
+
+            </div>
+        </section>
+        <section class="section">
+            <div id="courses">
+                <div class="separator-title">
+                    <div class="separator-title__line"></div>
+                    <h2 class="separator-title__title">Courses</h2>
+                    <div class="separator-title__line"></div>
+                </div>
+                <div class="courses-container">
+                    <div class="course">
+                        <div class="course__content course__content--2018">
+                            <h3 class="course__title">
+                                eConsultancy Microlearning Modules
+                            </h3>
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
+                            </p>
+                        </div>
+                        <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
+                            mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
+                            ex.
+                        </p>
                     </div>
-                    <div class="courses-container">
-                        <div class="course">
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                eConsultancy???? - 2018
+                                How to Use Git and GitHub
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">I learnt to use version control, an important tool for any developer. The course focused on Git,
+                            a specific version control system, and GitHub, a collaboration platform.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                SEO (SERP) Training - 2018
+                                SEO (SERP) Training
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.:)
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
+                            mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
+                            ex.:)
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                Certified Scrum Product Owner - 2017
+                                Product Design
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">Product validation, UI/UX practices, Google's Design Sprint, and the process for setting and tracking
+                            actionable metrics.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                Certified Scrum Master - 2017
+                                UX Design for Mobile Developers
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">This course went over the basics of UX design skills to help make 5-star mobile apps for users to
+                            love.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                The Digital Garage - 2017
+                                Intro to the Design of Everyday Things
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">This course was designed to give insight to start recognising the role of design in today's world,
+                            and to start making better design decisions.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                UX and UI Foundation Course - ????
+                                A/B Testiong for Busines Analysts
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">Learnt how to design business experiments and analyse through developing proficiency in randomised
+                            and matched-pair design A/B tests.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                SEO Foundation Course - ????
+                                App Marketing
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">This course helped to organise strategy of identifying the perfect user, and taught me how to grow
+                            a user base by focusing the product on their needs.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2018">
                             <h3 class="course__title">
-                                Social Marketing for Business Course - ????
+                                App Monetization
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2018">
+                                2018
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">I learnt how to effectively develop, implement, and measure my monetisation strategy, iterating on
+                            the model as appropriate.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2017">
                             <h3 class="course__title">
-                                Google Analytics Essential Training - 2016
+                                Certified Scrum Product Owner
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2017">
+                                2017
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">Certified Scrum Product Owner® professionals have been taught the Scrum terminology, practices, and
+                            principles that enable them to fulfill the role of Product Owner on a Scrum team. CSPOs are typically
+                            the individuals who are closest to the "business side" of the project. They are charged by the
+                            organization to "get the product out" and are expected to do the best possible job of satisfying
+                            all the stakeholders. CSPOs maintain the product backlog and ensure that everyone knows the priorities.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2017">
                             <h3 class="course__title">
-                                Content Marketing: Staying Relevant - 2016
+                                Certified Scrum Master
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2017">
+                                2017
                             </p>
                         </div>
-                        <div class="course">
+                        <p class="course__description">A Certified ScrumMaster® helps project teams properly use Scrum, increasing the likelihood of the
+                            project's overall success. CSMs understand Scrum values, practices, and applications and provide
+                            a level of knowledge and expertise above and beyond that of typical project managers. CSMs act
+                            as "servant leaders," helping the rest of the Scrum team work together and learn the Scrum framework.
+                            CSMs also protect the team from both internal and external distractions. Read more about the
+                            ScrumMaster role and see an example of a ScrumMaster's checklist.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2017">
                             <h3 class="course__title">
-                                Agile at Work: Building Your Agile Team - 2016
+                                The Digital Garage
                             </h3>
-                            <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
-                                mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
-                                ex.
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2017">
+                                2017
                             </p>
                         </div>
+                        <p class="course__description">Lorem ipsum dolor sit amet, ea unum meliore eos. Est idque graece evertitur an, ei aliquip albucius
+                            mei, eu putent impetus repudiare sea. Aliquando instructior vel an, eam novum omittam facilisis
+                            ex.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2017">
+                            <h3 class="course__title">
+                                UX and UI Foundation Course
+                            </h3>
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2017">
+                                2017
+                            </p>
+                        </div>
+                        <p class="course__description">User experience is all about catering the design of a product or service to fit the needs of users.
+                            UX research plays an important part in this, helping you thoroughly understand those users, assess
+                            how well you're serving their needs, and uncover opportunities to create something even better.
+                            This course introduces the fundamentals of user experience research so that anyone can understand
+                            the benefits and start integrating research into their everyday design and development process.
+                            Start watching to learn how to use UX research to find the answers to the most basic questions
+                            about your customers—who, what, when, why, and how—and drive better user experiences and business
+                            outcomes. Topics include: An overview of research methods, including usability testing, interviewing,
+                            eye tracking, surveys, and many more A review of the main types of research, including quantitative
+                            and qualitative, behavioral and attitudinal, and moderated vs. unmoderated Determining the right
+                            methodologies based on organizational environment, client type, and project stage Targeting the
+                            right research participants Crafting the right questions in the right way Analyzing and presenting
+                            your data
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2017">
+                            <h3 class="course__title">
+                                SEO Foundations Course
+                            </h3>
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2017">
+                                2017
+                            </p>
+                        </div>
+                        <p class="course__description">Increase your website's visibility on search engines like Google and Bing and attract the right kind
+                            of traffic to the right pages on your site. Learn about search engine optimization including
+                            how to read a results page, find your ranking, and see how rankings affect businesses large and
+                            small. Discover how to implement foundational optimization strategies and techniques, including
+                            how to conduct keyword research, build inbound links, optimize your pages and content, measure
+                            your successes and progress, and plan for a long-term SEO strategy. Additionally, learn specific
+                            SEO tips for ecommerce, local search, and mobile audiences to expand your reach.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2016">
+                            <h3 class="course__title">
+                                Google Analytics Essential Training
+                            </h3>
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2016">
+                                2016
+                            </p>
+                        </div>
+                        <p class="course__description">Whether you're managing a website for a large corporation or a small business, Google Analytics—the
+                            industry standard for web analytics—can help you find out how your website is performing. This
+                            powerful platform provides you with the tools you need to measure site traffic, conversions,
+                            and ad performance, and understand how people use your website. In this course, Brad Batesole
+                            explains how to get set up in Google Analytics and glean insights from each of the reports. He
+                            covers the out-of-the-box functionality—from account creation to reporting fundamentals—and explains
+                            how to interpret your results, create and track goals, and use options like dimensions and segments
+                            for deeper insights. Each tutorial is practical and succinct, touching on the features you'll
+                            use most in your day-to-day analytics workflow. Topics include: Setting up an account Installing
+                            tracking tags Understanding reports Using the data table Using annotations Utilizing segmentation
+                            for deeper analysis Viewing shared content and referrals with social reports Tracking engagement
+                            with behavior reports Using Site Content reports Reviewing site speed Adding custom campaign
+                            tracking
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2016">
+                            <h3 class="course__title">
+                                Pinterest for Business
+                            </h3>
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2016">
+                                2016
+                            </p>
+                        </div>
+                        <p class="course__description">User experience is all about catering the design of a product or service to fit the needs of users.
+                            UX research plays an important part in this, helping you thoroughly understand those users, assess
+                            how well you're serving their needs, and uncover opportunities to create something even better.
+                            This course introduces the fundamentals of user experience research so that anyone can understand
+                            the benefits and start integrating research into their everyday design and development process.
+                            Start watching to learn how to use UX research to find the answers to the most basic questions
+                            about your customers—who, what, when, why, and how—and drive better user experiences and business
+                            outcomes. Topics include: An overview of research methods, including usability testing, interviewing,
+                            eye tracking, surveys, and many more A review of the main types of research, including quantitative
+                            and qualitative, behavioral and attitudinal, and moderated vs. unmoderated Determining the right
+                            methodologies based on organizational environment, client type, and project stage Targeting the
+                            right research participants Crafting the right questions in the right way Analyzing and presenting
+                            your data
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2016">
+                            <h3 class="course__title">
+                                Content Marketing: Staying Relevant
+                            </h3>
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2016">
+                                2016
+                            </p>
+                        </div>
+                        <p class="course__description">Your customers are multichannel and multidevice. They interact with you from their desktop and on
+                            their smartphones, over social media, through email, and on your website. They also expect you
+                            to know who they are and what they want to hear. So how can you make sure your content stays
+                            both personalized and relevant? By keeping track of your buyers' behaviors across channels and
+                            leveraging that data to customize your communications. Watch this course to learn how to keep
+                            your content marketing efforts current. Find out how to stay on top of trends, craft personalized
+                            content, and create a lasting relationship with your customers. Content marketing expert Dayna
+                            Rothman also reveals the secrets to connecting with customers one-on-one—so they feel like you
+                            truly know them.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <div class="course__content course__content--2016">
+                            <h3 class="course__title">
+                                Agile at Work: Building Your Agile Team
+                            </h3>
+                            <div class="course__tags">
+                                <p class="course__tag">
+                                    #foo
+                                </p>
+                                <p class="course__tag">
+                                    #bar
+                                </p>
+                                <p class="course__tag">
+                                    #baz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="course__year-container">
+                            <p class="course__year course__year--2016">
+                                2016
+                            </p>
+                        </div>
+                        <p class="course__description">Agile is becoming the preferred project management approach for fast-moving projects. At the heart
+                            of any agile project lies an agile team. In this course, the first in lynda.com's Agile at Workseries,
+                            expert Doug Rose uses a sample project to show how to build your agile team. A team with an agile
+                            mindset is self-organized, collaborative, and accountable. He also outlines the common pitfalls
+                            inherent in the implementation: new teams need to watch for confusing their roles and understand
+                            the challenges with managing self-organized groups. Topics include: Starting agile in your organization
+                            Defining team roles and responsibilities Letting the team self-organize Training the team Thinking
+                            and delivering like an agile team Avoiding pitfalls
+                        </p>
                     </div>
                 </div>
             </div>
