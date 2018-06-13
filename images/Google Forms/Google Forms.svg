@@ -8,10 +8,12 @@
 	.st2{fill:#808080;}
 	.st3{fill:url(#SVGID_1_);}
 	.st4{fill:#FFFFFF;}
-	.st5{fill:none;stroke:#8B809E;stroke-width:3;stroke-miterlimit:10;}
-	.st6{fill:#6A568E;}
-	.st7{fill:#8B809E;}
-	.st8{fill:url(#SVGID_2_);}
+	.st5{display:none;}
+	.st6{display:inline;fill:none;stroke:#8B809E;stroke-width:3;stroke-miterlimit:10;}
+	.st7{display:inline;}
+	.st8{fill:#6A568E;}
+	.st9{display:inline;fill:#8B809E;}
+	.st10{display:inline;fill:url(#SVGID_2_);}
 </style>
 <g id="Layer_4">
 	<path class="st0" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
@@ -41,30 +43,30 @@
 		<circle class="st4" cx="179" cy="336.6" r="8"/>
 	</g>
 </g>
-<g id="Layer_1">
-	<path class="st5" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
+<g id="Layer_1" class="st5">
+	<path class="st6" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
 		H42.9C33.9,25.5,26.5,32.9,26.5,41.9z"/>
 </g>
-<g id="Layer_3">
-	<g>
-		<path class="st6" d="M300.6,72H139.4c-11.8,0-21.4,9.6-21.4,21.4v314.2c0,11.8,9.6,21.4,21.4,21.4h221.4
+<g id="Layer_3" class="st5">
+	<g class="st7">
+		<path class="st8" d="M300.6,72H139.4c-11.8,0-21.4,9.6-21.4,21.4v314.2c0,11.8,9.6,21.4,21.4,21.4h221.4
 			c11.8,0,21.4-9.6,21.4-21.4V160.8L300.6,72z"/>
 	</g>
-	<path class="st7" d="M382.1,160.9l-64.9-0.1c-9,0-16.2-7.6-16.2-17l0.1-71.9"/>
+	<path class="st9" d="M382.1,160.9l-64.9-0.1c-9,0-16.2-7.6-16.2-17l0.1-71.9"/>
 	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="347.7307" y1="169.556" x2="356.945" y2="220.7468">
 		<stop  offset="0" style="stop-color:#5D4E80"/>
 		<stop  offset="1" style="stop-color:#6A568E"/>
 	</linearGradient>
-	<polyline class="st8" points="382.1,232.9 382.1,160.9 310.2,160.9 	"/>
-	<g>
+	<polyline class="st10" points="382.1,232.9 382.1,160.9 310.2,160.9 	"/>
+	<g class="st7">
 		<rect x="207.3" y="233.2" class="st4" width="118" height="17"/>
 		<circle class="st4" cx="179" cy="241.7" r="8"/>
 	</g>
-	<g>
+	<g class="st7">
 		<rect x="207.3" y="280.7" class="st4" width="118" height="17"/>
 		<circle class="st4" cx="179" cy="289.2" r="8"/>
 	</g>
-	<g>
+	<g class="st7">
 		<rect x="207.5" y="328.1" class="st4" width="117.6" height="17"/>
 		<circle class="st4" cx="179" cy="336.6" r="8"/>
 	</g>

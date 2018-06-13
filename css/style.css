@@ -157,7 +157,8 @@ body {
     align-self: center;
     padding: 20px 0; }
   .education-card__subtitle {
-    align-self: center; }
+    align-self: center;
+    text-align: center; }
   .education-card:hover {
     transform: scale(1.1); }
 
@@ -202,7 +203,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 5px 0; }
+    padding: 5px 0;
+    flex-wrap: wrap; }
   .course__tag {
     padding: 0 5px; }
   .course__year-container {
@@ -347,6 +349,22 @@ body {
       background: url("../images/Behance/Behance.svg") no-repeat center center; }
       .titled-icon__icon--behance:hover {
         background: url("../images/Behance/Behance Colour.svg") no-repeat center center; }
+    .titled-icon__icon--CSS {
+      background: url("../images/CSS/CSS.svg") no-repeat center center; }
+      .titled-icon__icon--CSS:hover {
+        background: url("../images/CSS/CSS Colour.svg") no-repeat center center; }
+    .titled-icon__icon--html {
+      background: url("../images/html/html.svg") no-repeat center center; }
+      .titled-icon__icon--html:hover {
+        background: url("../images/html/html Colour.svg") no-repeat center center; }
+    .titled-icon__icon--javascript {
+      background: url("../images/javascript/javascript.svg") no-repeat center center; }
+      .titled-icon__icon--javascript:hover {
+        background: url("../images/javascript/javascript Colour.svg") no-repeat center center; }
+    .titled-icon__icon--mixpanel {
+      background: url("../images/mixpanel/mixpanel.svg") no-repeat center center; }
+      .titled-icon__icon--mixpanel:hover {
+        background: url("../images/mixpanel/mixpanel Colour.svg") no-repeat center center; }
     .titled-icon__icon--adobe-photoshop {
       background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center; }
       .titled-icon__icon--adobe-photoshop:hover {
@@ -371,10 +389,18 @@ body {
       background: url("../images/Infusionsoft/Infusionsoft.svg") no-repeat center center; }
       .titled-icon__icon--infusionsoft:hover {
         background: url("../images/Infusionsoft/Infusionsoft Colour.svg") no-repeat center center; }
+    .titled-icon__icon--invision-craft {
+      background: url("../images/Invision Craft/Invision Craft.svg") no-repeat center center; }
+      .titled-icon__icon--invision-craft:hover {
+        background: url("../images/Invision Craft/Invision Craft Colour.svg") no-repeat center center; }
     .titled-icon__icon--craft-cms {
       background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center; }
       .titled-icon__icon--craft-cms:hover {
         background: url("../images/Craft CMS/CraftCMS Colour.svg") no-repeat center center; }
+    .titled-icon__icon--balsamiq {
+      background: url("../images/balsamiq/balsamiq.svg") no-repeat center center; }
+      .titled-icon__icon--balsamiq:hover {
+        background: url("../images/balsamiq/balsamiq Colour.svg") no-repeat center center; }
     .titled-icon__icon--jira {
       background: url("../images/JIRA/Jira.svg") no-repeat center center; }
       .titled-icon__icon--jira:hover {
@@ -399,6 +425,10 @@ body {
       background: url("../images/Google Sheets/Google Sheets.svg") no-repeat center center; }
       .titled-icon__icon--google-sheets:hover {
         background: url("../images/Google Sheets/Google Sheets Colour.svg") no-repeat center center; }
+    .titled-icon__icon--hotjar {
+      background: url("../images/hotjar/hotjar.svg") no-repeat center center; }
+      .titled-icon__icon--hotjar:hover {
+        background: url("../images/hotjar/hotjar Colour.svg") no-repeat center center; }
     .titled-icon__icon--microsoft-excel {
       background: url("../images/Miscrosoft Excel/Miscrosoft Excel.svg") no-repeat center center; }
       .titled-icon__icon--microsoft-excel:hover {
@@ -411,6 +441,10 @@ body {
       background: url("../images/Microsoft Word/Miscrosoft Word.svg") no-repeat center center; }
       .titled-icon__icon--microsoft-word:hover {
         background: url("../images/Microsoft Word/Miscrosoft Word Colour.svg") no-repeat center center; }
+    .titled-icon__icon--usertesting {
+      background: url("../images/User Testing/UserTesting.svg") no-repeat center center; }
+      .titled-icon__icon--usertesting:hover {
+        background: url("../images/User Testing/UserTesting Colour.svg") no-repeat center center; }
     .titled-icon__icon > img {
       width: 100%;
       height: 100%; }

@@ -260,6 +260,7 @@ body {
 
     &__subtitle {
         align-self: center;
+        text-align: center;
     }
 
     &:hover {
@@ -538,6 +539,38 @@ body {
             }
         }
 
+        &--CSS {
+            background: url("../images/CSS/CSS.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/CSS/CSS Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--html {
+            background: url("../images/html/html.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/html/html Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--javascript {
+            background: url("../images/javascript/javascript.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/javascript/javascript Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--mixpanel {
+            background: url("../images/mixpanel/mixpanel.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/mixpanel/mixpanel Colour.svg") no-repeat center center;
+            }
+        }
+
         &--adobe-photoshop {
             background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center;
 
@@ -586,11 +619,27 @@ body {
             }
         }
 
+        &--invision-craft {
+            background: url("../images/Invision Craft/Invision Craft.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/Invision Craft/Invision Craft Colour.svg") no-repeat center center;
+            }
+        }
+
         &--craft-cms {
             background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center;
 
             &:hover {
                 background: url("../images/Craft CMS/CraftCMS Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--balsamiq {
+            background: url("../images/balsamiq/balsamiq.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/balsamiq/balsamiq Colour.svg") no-repeat center center;
             }
         }
 
@@ -642,6 +691,14 @@ body {
             }
         }
 
+        &--hotjar {
+            background: url("../images/hotjar/hotjar.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/hotjar/hotjar Colour.svg") no-repeat center center;
+            }
+        }
+
         &--microsoft-excel {
             background: url("../images/Miscrosoft Excel/Miscrosoft Excel.svg") no-repeat center center;
 
@@ -663,6 +720,14 @@ body {
 
             &:hover {
                 background: url("../images/Microsoft Word/Miscrosoft Word Colour.svg") no-repeat center center;
+            }
+        }
+
+        &--usertesting {
+            background: url("../images/User Testing/UserTesting.svg") no-repeat center center;
+
+            &:hover {
+                background: url("../images/User Testing/UserTesting Colour.svg") no-repeat center center;
             }
         }
 
