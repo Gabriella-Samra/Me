@@ -354,17 +354,17 @@ body {
       .titled-icon__icon--CSS:hover {
         background: url("../images/CSS/CSS Colour.svg") no-repeat center center; }
     .titled-icon__icon--html {
-      background: url("../images/html/html.svg") no-repeat center center; }
+      background: url("../images/HTML/HTML.svg") no-repeat center center; }
       .titled-icon__icon--html:hover {
-        background: url("../images/html/html Colour.svg") no-repeat center center; }
+        background: url("../images/HTML/HTML Colour.svg") no-repeat center center; }
     .titled-icon__icon--javascript {
-      background: url("../images/javascript/javascript.svg") no-repeat center center; }
+      background: url("../images/Javascript/Javascript.svg") no-repeat center center; }
       .titled-icon__icon--javascript:hover {
-        background: url("../images/javascript/javascript Colour.svg") no-repeat center center; }
+        background: url("../images/Javascript/Javascript Colour.svg") no-repeat center center; }
     .titled-icon__icon--mixpanel {
-      background: url("../images/mixpanel/mixpanel.svg") no-repeat center center; }
+      background: url("../images/Mixpanel/Mixpanel.svg") no-repeat center center; }
       .titled-icon__icon--mixpanel:hover {
-        background: url("../images/mixpanel/mixpanel Colour.svg") no-repeat center center; }
+        background: url("../images/Mixpanel/Mixpanel Colour.svg") no-repeat center center; }
     .titled-icon__icon--adobe-photoshop {
       background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center; }
       .titled-icon__icon--adobe-photoshop:hover {
@@ -398,9 +398,9 @@ body {
       .titled-icon__icon--craft-cms:hover {
         background: url("../images/Craft CMS/CraftCMS Colour.svg") no-repeat center center; }
     .titled-icon__icon--balsamiq {
-      background: url("../images/balsamiq/balsamiq.svg") no-repeat center center; }
+      background: url("../images/Balsamiq/Balsamiq.svg") no-repeat center center; }
       .titled-icon__icon--balsamiq:hover {
-        background: url("../images/balsamiq/balsamiq Colour.svg") no-repeat center center; }
+        background: url("../images/Balsamiq/Balsamiq Colour.svg") no-repeat center center; }
     .titled-icon__icon--jira {
       background: url("../images/JIRA/Jira.svg") no-repeat center center; }
       .titled-icon__icon--jira:hover {
