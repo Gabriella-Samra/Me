@@ -3,64 +3,64 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#313131;stroke-width:3;stroke-miterlimit:10;}
-	.st1{fill:#313131;}
-	.st2{fill:#FFFFFF;}
-	.st3{fill:none;}
-	.st4{font-family:'GommeSans-ExtraBold';}
-	.st5{font-size:168.3581px;}
-	.st6{display:none;}
-	.st7{display:inline;fill:none;stroke:#2A5699;stroke-width:3;stroke-miterlimit:10;}
-	.st8{display:inline;}
-	.st9{fill:#2A5699;}
-	.st10{display:inline;fill:none;}
-	.st11{display:inline;fill:#FFFFFF;}
-	.st12{display:inline;fill:#2A5699;}
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#313131;stroke-width:3;stroke-miterlimit:10;}
+	.st2{display:inline;}
+	.st3{fill:#313131;}
+	.st4{fill:#FFFFFF;}
+	.st5{display:inline;fill:none;}
+	.st6{display:inline;fill:#FFFFFF;}
+	.st7{font-family:'GommeSans-ExtraBold';}
+	.st8{font-size:168.3581px;}
+	.st9{display:inline;fill:#313131;}
+	.st10{fill:none;stroke:#2A5699;stroke-width:3;stroke-miterlimit:10;}
+	.st11{fill:#2A5699;}
+	.st12{fill:none;}
 </style>
-<g id="Layer_4">
-	<path class="st0" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
+<g id="Layer_4" class="st0">
+	<path class="st1" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
 		H42.9C33.9,25.5,26.5,32.9,26.5,41.9z"/>
 </g>
-<g id="Layer_5_1_">
-	<g id="Layer_5_2_">
-		<path class="st1" d="M260.2,63h24.7v39.2c46.6,0.3,93.3-0.5,139.8,0.2c10-1,17.9,6.8,16.9,16.9c0.7,81.5-0.2,163,0.4,244.4
+<g id="Layer_5_1_" class="st0">
+	<g id="Layer_5_2_" class="st2">
+		<path class="st3" d="M260.2,63h24.7v39.2c46.6,0.3,93.3-0.5,139.8,0.2c10-1,17.9,6.8,16.9,16.9c0.7,81.5-0.2,163,0.4,244.4
 			c-0.4,8.8,0.9,18.6-4.2,26.4c-6.4,4.6-14.7,4-22.1,4.4c-43.6-0.2-87.2-0.1-130.9-0.1V438h-27.1c-66.5-12.1-133-23.2-199.5-34.9
 			c0-101.7,0-203.5,0-305.1C125.6,86.3,192.8,74.5,260.2,63z"/>
-		<path class="st2" d="M284.9,115.3h143.9v266H284.9v-34.9h104.7V329H284.9v-21.8h104.7v-17.4H285c0-8.5,0-17.1-0.1-25.6
+		<path class="st4" d="M284.9,115.3h143.9v266H284.9v-34.9h104.7V329H284.9v-21.8h104.7v-17.4H285c0-8.5,0-17.1-0.1-25.6
 			c17.3,5.4,36.9,5.2,52.4-5.1c16.7-9.9,25.4-28.8,26.9-47.6c-19.1-0.1-38.3-0.1-57.4-0.1c0-19,0.2-37.9-0.4-56.9
 			c-7.2,1.4-14.3,2.9-21.4,4.4L284.9,115.3L284.9,115.3z"/>
-		<rect x="285" y="115" class="st2" width="144" height="266"/>
+		<rect x="285" y="115" class="st4" width="144" height="266"/>
 	</g>
-	<rect x="95.4" y="172.3" class="st3" width="154.5" height="151.7"/>
-	<text transform="matrix(0.9139 0 0 1 95.3672 312.9102)" class="st2 st4 st5">W</text>
-	<rect x="284" y="150" class="st1" width="105" height="16"/>
-	<rect x="284" y="187.4" class="st1" width="105" height="16"/>
-	<rect x="284" y="224.8" class="st1" width="105" height="16"/>
-	<rect x="284" y="262.2" class="st1" width="105" height="16"/>
-	<rect x="284" y="299.6" class="st1" width="105" height="16"/>
-	<rect x="284" y="337" class="st1" width="105" height="16"/>
+	<rect x="95.4" y="172.3" class="st5" width="154.5" height="151.7"/>
+	<text transform="matrix(0.9139 0 0 1 95.3672 312.9102)" class="st6 st7 st8">W</text>
+	<rect x="284" y="150" class="st9" width="105" height="16"/>
+	<rect x="284" y="187.4" class="st9" width="105" height="16"/>
+	<rect x="284" y="224.8" class="st9" width="105" height="16"/>
+	<rect x="284" y="262.2" class="st9" width="105" height="16"/>
+	<rect x="284" y="299.6" class="st9" width="105" height="16"/>
+	<rect x="284" y="337" class="st9" width="105" height="16"/>
 </g>
-<g id="Layer_1" class="st6">
-	<path class="st7" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
+<g id="Layer_1">
+	<path class="st10" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
 		H42.9C33.9,25.5,26.5,32.9,26.5,41.9z"/>
 </g>
-<g id="Layer_6" class="st6">
-	<g id="Layer_5" class="st8">
-		<path class="st9" d="M260.2,63h24.7v39.2c46.6,0.3,93.3-0.5,139.8,0.2c10-1,17.9,6.8,16.9,16.9c0.7,81.5-0.2,163,0.4,244.4
+<g id="Layer_6">
+	<g id="Layer_5">
+		<path class="st11" d="M260.2,63h24.7v39.2c46.6,0.3,93.3-0.5,139.8,0.2c10-1,17.9,6.8,16.9,16.9c0.7,81.5-0.2,163,0.4,244.4
 			c-0.4,8.8,0.9,18.6-4.2,26.4c-6.4,4.6-14.7,4-22.1,4.4c-43.6-0.2-87.2-0.1-130.9-0.1V438h-27.1c-66.5-12.1-133-23.2-199.5-34.9
 			c0-101.7,0-203.5,0-305.1C125.6,86.3,192.8,74.5,260.2,63z"/>
-		<path class="st2" d="M284.9,115.3h143.9v266H284.9v-34.9h104.7V329H284.9v-21.8h104.7v-17.4H285c0-8.5,0-17.1-0.1-25.6
+		<path class="st4" d="M284.9,115.3h143.9v266H284.9v-34.9h104.7V329H284.9v-21.8h104.7v-17.4H285c0-8.5,0-17.1-0.1-25.6
 			c17.3,5.4,36.9,5.2,52.4-5.1c16.7-9.9,25.4-28.8,26.9-47.6c-19.1-0.1-38.3-0.1-57.4-0.1c0-19,0.2-37.9-0.4-56.9
 			c-7.2,1.4-14.3,2.9-21.4,4.4L284.9,115.3L284.9,115.3z"/>
-		<rect x="285" y="115" class="st2" width="144" height="266"/>
+		<rect x="285" y="115" class="st4" width="144" height="266"/>
 	</g>
-	<rect x="95.4" y="172.3" class="st10" width="154.5" height="151.7"/>
-	<text transform="matrix(0.9139 0 0 1 95.3672 312.9102)" class="st11 st4 st5">W</text>
-	<rect x="284" y="150" class="st12" width="105" height="16"/>
-	<rect x="284" y="187.4" class="st12" width="105" height="16"/>
-	<rect x="284" y="224.8" class="st12" width="105" height="16"/>
-	<rect x="284" y="262.2" class="st12" width="105" height="16"/>
-	<rect x="284" y="299.6" class="st12" width="105" height="16"/>
-	<rect x="284" y="337" class="st12" width="105" height="16"/>
+	<rect x="95.4" y="172.3" class="st12" width="154.5" height="151.7"/>
+	<text transform="matrix(0.9139 0 0 1 95.3672 312.9102)" class="st4 st7 st8">W</text>
+	<rect x="284" y="150" class="st11" width="105" height="16"/>
+	<rect x="284" y="187.4" class="st11" width="105" height="16"/>
+	<rect x="284" y="224.8" class="st11" width="105" height="16"/>
+	<rect x="284" y="262.2" class="st11" width="105" height="16"/>
+	<rect x="284" y="299.6" class="st11" width="105" height="16"/>
+	<rect x="284" y="337" class="st11" width="105" height="16"/>
 </g>
 </svg>

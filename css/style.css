@@ -186,6 +186,14 @@ body {
     color: white;
     flex-grow: 1;
     text-align: center; }
+    .course__content--2023 {
+      background: linear-gradient(to right, #00BCF2, #00B26E); }
+    .course__content--2022 {
+      background: linear-gradient(to right, #833ab4, #fcb045); }
+    .course__content--2020 {
+      background: linear-gradient(to right, #e83992, #2f88f1); }
+    .course__content--2019 {
+      background: linear-gradient(to right, #089f8f, #2a4858); }
     .course__content--2018 {
       background: linear-gradient(to right, #ff8047, #f4374c); }
     .course__content--2017 {
@@ -217,6 +225,14 @@ body {
   .course__year {
     transform: rotate(270deg);
     font-size: 30pt; }
+    .course__year--2023 {
+      color: #00B26E; }
+    .course__year--2022 {
+      color: #fcb045; }
+    .course__year--2020 {
+      color: #2f88f1; }
+    .course__year--2019 {
+      color: #2a4858; }
     .course__year--2018 {
       color: #f4374c; }
     .course__year--2017 {
@@ -330,121 +346,191 @@ body {
     background-size: cover;
     transition: 0.3s; }
     .titled-icon__icon--adobe-animate {
-      background: url("../images/Adobe Animate/Adobe Animate.svg") no-repeat center center; }
+      background: url("../images/Adobe Animate/Adobe Animate.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--adobe-animate:hover {
-        background: url("../images/Adobe Animate/Adobe Animate Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--adobe-indesign {
-      background: url("../images/Adobe InDesign/Adobe InDesign.svg") no-repeat center center; }
+      background: url("../images/Adobe InDesign/Adobe InDesign.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--adobe-indesign:hover {
-        background: url("../images/Adobe InDesign/Adobe InDesign Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--adobe-illustrator {
-      background: url("../images/Adobe Illustrator/Adobe Illustrator.svg") no-repeat center center; }
+      background: url("../images/Adobe Illustrator/Adobe Illustrator.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--adobe-illustrator:hover {
-        background: url("../images/Adobe Illustrator/Adobe Illustrator Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--asana {
-      background: url("../images/Asana/Asana.svg") no-repeat center center; }
+      background: url("../images/Asana/Asana.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--asana:hover {
-        background: url("../images/Asana/Asana Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--behance {
-      background: url("../images/Behance/Behance.svg") no-repeat center center; }
+      background: url("../images/Behance/Behance.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--behance:hover {
-        background: url("../images/Behance/Behance Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--CSS {
-      background: url("../images/CSS/CSS.svg") no-repeat center center; }
+      background: url("../images/CSS/CSS.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--CSS:hover {
-        background: url("../images/CSS/CSS Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--html {
-      background: url("../images/HTML/HTML.svg") no-repeat center center; }
+      background: url("../images/HTML/HTML.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--html:hover {
-        background: url("../images/HTML/HTML Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--javascript {
-      background: url("../images/Javascript/Javascript.svg") no-repeat center center; }
+      background: url("../images/Javascript/Javascript.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--javascript:hover {
-        background: url("../images/Javascript/Javascript Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--mixpanel {
-      background: url("../images/Mixpanel/Mixpanel.svg") no-repeat center center; }
+      background: url("../images/Mixpanel/Mixpanel.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--mixpanel:hover {
-        background: url("../images/Mixpanel/Mixpanel Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--adobe-photoshop {
-      background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center; }
+      background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--adobe-photoshop:hover {
-        background: url("../images/Adobe Photoshop/Adobe Photoshop Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--google-data-studio {
-      background: url("../images/Google Data Studio/Google Data Studio.svg") no-repeat center center; }
+      background: url("../images/Google Data Studio/Google Data Studio.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--google-data-studio:hover {
-        background: url("../images/Google Data Studio/Google Data Studio Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--google-tag-manager {
-      background: url("../images/Google Tag Manager/Google Tag Manager.svg") no-repeat center center; }
+      background: url("../images/Google Tag Manager/Google Tag Manager.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--google-tag-manager:hover {
-        background: url("../images/Google Tag Manager/Google Tag Manager Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--confluence {
-      background: url("../images/Confluence/Confluence.svg") no-repeat center center; }
+      background: url("../images/Confluence/Confluence.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--confluence:hover {
-        background: url("../images/Confluence/Confluence Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--mailchimp {
-      background: url("../images/Mailchimp/Mailchimp.svg") no-repeat center center; }
+      background: url("../images/Mailchimp/Mailchimp.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--mailchimp:hover {
-        background: url("../images/Mailchimp/Mailchimp Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--infusionsoft {
-      background: url("../images/Infusionsoft/Infusionsoft.svg") no-repeat center center; }
+      background: url("../images/Infusionsoft/Infusionsoft.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--infusionsoft:hover {
-        background: url("../images/Infusionsoft/Infusionsoft Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--invision-craft {
-      background: url("../images/Invision Craft/Invision Craft.svg") no-repeat center center; }
+      background: url("../images/Invision Craft/Invision Craft.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--invision-craft:hover {
-        background: url("../images/Invision Craft/Invision Craft Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--craft-cms {
-      background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center; }
+      background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--craft-cms:hover {
-        background: url("../images/Craft CMS/CraftCMS Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--balsamiq {
-      background: url("../images/Balsamiq/Balsamiq.svg") no-repeat center center; }
+      background: url("../images/Balsamiq/Balsamiq.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--balsamiq:hover {
-        background: url("../images/Balsamiq/Balsamiq Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--jira {
-      background: url("../images/JIRA/Jira.svg") no-repeat center center; }
+      background: url("../images/JIRA/Jira.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--jira:hover {
-        background: url("../images/JIRA/Jira Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--google-analytics {
-      background: url("../images/Google Analytics/Google Analytics.svg") no-repeat center center; }
+      background: url("../images/Google Analytics/Google Analytics.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--google-analytics:hover {
-        background: url("../images/Google Analytics/Google Analytics Colour.svg") no-repeat center center; }
-    .titled-icon__icon--google-docs {
-      background: url("../images/Google Docs/Google Docs.svg") no-repeat center center; }
-      .titled-icon__icon--google-docs:hover {
-        background: url("../images/Google Docs/Google Docs Colour.svg") no-repeat center center; }
-    .titled-icon__icon--google-drive {
-      background: url("../images/Google Drive/Google Drive.svg") no-repeat center center; }
-      .titled-icon__icon--google-drive:hover {
-        background: url("../images/Google Drive/Google Drive Colour.svg") no-repeat center center; }
-    .titled-icon__icon--google-forms {
-      background: url("../images/Google Forms/Google Forms.svg") no-repeat center center; }
-      .titled-icon__icon--google-forms:hover {
-        background: url("../images/Google Forms/Google Forms Colour.svg") no-repeat center center; }
-    .titled-icon__icon--google-sheets {
-      background: url("../images/Google Sheets/Google Sheets.svg") no-repeat center center; }
-      .titled-icon__icon--google-sheets:hover {
-        background: url("../images/Google Sheets/Google Sheets Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
+    .titled-icon__icon--figma {
+      background: url("../images/Figma/Figma.jpg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--figma:hover {
+        filter: grayscale(0); }
+    .titled-icon__icon--office {
+      background: url("../images/Office/Office.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--office:hover {
+        filter: grayscale(0); }
+    .titled-icon__icon--powerbi {
+      background: url("../images/Powerbi/powerbi.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--powerbi:hover {
+        filter: grayscale(0); }
+    .titled-icon__icon--mysql {
+      background: url("../images/MySQL/mysql.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--mysql:hover {
+        filter: grayscale(0); }
+    .titled-icon__icon--drawio {
+      background: url("../images/Drawio/Drawio.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--drawio:hover {
+        filter: grayscale(0); }
+    .titled-icon__icon--canva {
+      background: url("../images/Canva/Canva.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--canva:hover {
+        filter: grayscale(0); }
+    .titled-icon__icon--google-suite {
+      background: url("../images/Google Suite/Google Suite.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--google-suite:hover {
+        filter: grayscale(0); }
     .titled-icon__icon--hotjar {
-      background: url("../images/hotjar/hotjar.svg") no-repeat center center; }
+      background: url("../images/hotjar/hotjar.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--hotjar:hover {
-        background: url("../images/hotjar/hotjar Colour.svg") no-repeat center center; }
-    .titled-icon__icon--microsoft-excel {
-      background: url("../images/Miscrosoft Excel/Miscrosoft Excel.svg") no-repeat center center; }
-      .titled-icon__icon--microsoft-excel:hover {
-        background: url("../images/Miscrosoft Excel/Miscrosoft Excel Colour.svg") no-repeat center center; }
-    .titled-icon__icon--microsoft-powerpoint {
-      background: url("../images/PowerPoint/PowerPoint.svg") no-repeat center center; }
-      .titled-icon__icon--microsoft-powerpoint:hover {
-        background: url("../images/PowerPoint/PowerPoint Colour.svg") no-repeat center center; }
-    .titled-icon__icon--microsoft-word {
-      background: url("../images/Microsoft Word/Miscrosoft Word.svg") no-repeat center center; }
-      .titled-icon__icon--microsoft-word:hover {
-        background: url("../images/Microsoft Word/Miscrosoft Word Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
     .titled-icon__icon--usertesting {
-      background: url("../images/User Testing/UserTesting.svg") no-repeat center center; }
+      background: url("../images/User Testing/UserTesting.svg") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
       .titled-icon__icon--usertesting:hover {
-        background: url("../images/User Testing/UserTesting Colour.svg") no-repeat center center; }
+        filter: grayscale(0); }
+    .titled-icon__icon--iwork {
+      background: url("../images/iWork/iwork.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--iwork:hover {
+        filter: grayscale(0); }
+    .titled-icon__icon--trello {
+      background: url("../images/Trello/Trello.png") no-repeat center center;
+      filter: grayscale(1);
+      background-size: cover; }
+      .titled-icon__icon--trello:hover {
+        filter: grayscale(0); }
     .titled-icon__icon > img {
       width: 100%;
       height: 100%; }

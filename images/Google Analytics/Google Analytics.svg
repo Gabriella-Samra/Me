@@ -3,18 +3,68 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#313131;stroke-width:3;stroke-miterlimit:10;}
-	.st1{fill:#313131;}
-	.st2{fill:#808080;}
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#313131;stroke-width:3;stroke-miterlimit:10;}
+	.st2{display:inline;fill:#313131;}
+	.st3{display:inline;fill:#808080;}
+	.st4{fill:none;stroke:#313131;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#F57E02;}
+	.st6{fill:url(#SVGID_1_);}
+	.st7{filter:url(#Adobe_OpacityMaskFilter);}
+	.st8{mask:url(#SVGID_2_);fill:#DE650A;}
+	.st9{fill:#FFC927;}
 </style>
-<g id="Layer_1">
-	<path class="st0" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
+<g id="Layer_1" class="st0">
+	<path class="st1" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
 		H42.9C33.9,25.5,26.5,32.9,26.5,41.9z"/>
 </g>
-<g id="Layer_3">
-	<path class="st1" d="M409.2,425h-103V91.9c0-7.7,6.3-13.9,13.9-13.9h89c7.7,0,13.9,6.3,13.9,13.9v319.1
+<g id="Layer_3" class="st0">
+	<path class="st2" d="M409.2,425h-103V91.9c0-7.7,6.3-13.9,13.9-13.9h89c7.7,0,13.9,6.3,13.9,13.9v319.1
 		C423.1,418.7,416.8,425,409.2,425z"/>
-	<path class="st2" d="M306.2,425H189.3V201.4c0-7.7,6.3-14,14-14h102.9V425z"/>
-	<path class="st2" d="M189.3,425H92c-7.7,0-14-6.3-14-14v-90.8c0-7.7,6.3-14,14-14h97.3V425z"/>
+	<path class="st3" d="M306.2,425H189.3V201.4c0-7.7,6.3-14,14-14h102.9V425z"/>
+	<path class="st3" d="M189.3,425H92c-7.7,0-14-6.3-14-14v-90.8c0-7.7,6.3-14,14-14h97.3V425z"/>
+</g>
+<g id="Layer_4">
+	<path class="st4" d="M26.5,41.9v418.1c0,9.1,7.4,16.4,16.4,16.4h415.1c9.1,0,16.4-7.4,16.4-16.4V41.9c0-9.1-7.4-16.4-16.4-16.4
+		H42.9C33.9,25.5,26.5,32.9,26.5,41.9z"/>
+</g>
+<g id="Layer_5">
+	<path class="st5" d="M408.8,425h-103V91.9c0-7.7,6.3-13.9,13.9-13.9h89c7.7,0,13.9,6.3,13.9,13.9v319.1
+		C422.7,418.7,416.5,425,408.8,425z"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="313.3072" y1="277.2272" x2="357.17" y2="337.7367">
+		<stop  offset="0" style="stop-color:#DE650A"/>
+		<stop  offset="0.8991" style="stop-color:#F27B03"/>
+		<stop  offset="1" style="stop-color:#F57E02"/>
+	</linearGradient>
+	<path class="st6" d="M404.6,349h-98.8V188L418,339.5C418,344.7,412,349,404.6,349z"/>
+	<g>
+		<g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="305" y="192" width="3" height="233">
+					<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+					<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="305" y="192" width="3" height="233" id="SVGID_2_">
+				<g class="st7">
+					
+						<image style="overflow:visible;" width="7" height="237" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAGAAAABrAAAAgD/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAO0ABwMBIgACEQEDEQH/
+xABqAAEBAQAAAAAAAAAAAAAAAAAAAgYBAQAAAAAAAAAAAAAAAAAAAAAQAQEBAQEBAAAAAAAAAAAA
+AAIzATASAxEAAwEBAAMAAAAAAAAAAAAAAAECcREhQVISAQAAAAAAAAAAAAAAAAAAADD/2gAMAwEA
+AhEDEQAAAMCoAAAAAAAAAAAAAEj/2gAIAQIAAQUA7//aAAgBAwABBQDv/9oACAEBAAEFANOZ81FR
+UVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVHfXj//2gAIAQICBj8Af//aAAgBAwIGPwB//9oACAEB
+AQY/AFXtvhOsnWTrJ1k6ydZOsnWTrJ1k6ydZOsnWTrJ1k6ydZOsnWTrJ1k6ydZOsnWTrJ1i+e+D/
+2Q==" transform="matrix(1 0 0 1 303 190)">
+					</image>
+				</g>
+			</mask>
+			<rect x="305" y="192" class="st8" width="3" height="233"/>
+		</g>
+	</g>
+	<path class="st9" d="M305.2,425H188.3V201.4c0-7.7,6.3-14,14-14h102.9V425z"/>
+	<path class="st9" d="M189.3,425H92c-7.7,0-14-6.3-14-14v-90.8c0-7.7,6.3-14,14-14h97.3V425z"/>
 </g>
 </svg>

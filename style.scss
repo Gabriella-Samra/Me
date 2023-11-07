@@ -11,6 +11,15 @@ $circle-size: 150px;
 $border-thickness: 1px;
 $padding: 30px;
 
+@mixin hover-image {
+    filter: grayscale(1);
+    background-size: cover;
+
+    &:hover {
+        filter: grayscale(0);
+    }
+}
+
 @mixin header-font {
     font-family: 'Work Sans script=all', sans-serif;
     font-weight: 600;
@@ -295,6 +304,23 @@ body {
         flex-grow: 1;
         text-align: center;
 
+        
+        &--2023 {
+            background: linear-gradient(to right, #00BCF2, #00B26E)
+        }
+
+        &--2022 {
+            background: linear-gradient(to right, #833ab4, #fcb045)
+        }
+        
+        &--2020 {
+            background: linear-gradient(to right, #e83992, #2f88f1)
+        }
+        
+        &--2019 {
+            background: linear-gradient(to right, #089f8f, #2a4858)
+        }
+
         &--2018 {
             background: linear-gradient(to right, #ff8047, #f4374c)
         }
@@ -343,6 +369,22 @@ body {
         transform: rotate(270deg);
         font-size: 30pt;
 
+        &--2023 {
+            color: #00B26E;
+        }
+        
+        &--2022 {
+            color: #fcb045;
+        }
+
+        &--2020 {
+            color: #2f88f1;
+        }
+
+        &--2019 {
+            color: #2a4858;
+        }
+        
         &--2018 {
             color: #f4374c;
         }
@@ -501,234 +543,157 @@ body {
 
         &--adobe-animate {
             background: url("../images/Adobe Animate/Adobe Animate.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Adobe Animate/Adobe Animate Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--adobe-indesign {
             background: url("../images/Adobe InDesign/Adobe InDesign.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Adobe InDesign/Adobe InDesign Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--adobe-illustrator {
             background: url("../images/Adobe Illustrator/Adobe Illustrator.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Adobe Illustrator/Adobe Illustrator Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--asana {
             background: url("../images/Asana/Asana.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Asana/Asana Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--behance {
             background: url("../images/Behance/Behance.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Behance/Behance Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--CSS {
             background: url("../images/CSS/CSS.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/CSS/CSS Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--html {
             background: url("../images/HTML/HTML.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/HTML/HTML Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--javascript {
             background: url("../images/Javascript/Javascript.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Javascript/Javascript Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--mixpanel {
             background: url("../images/Mixpanel/Mixpanel.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Mixpanel/Mixpanel Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--adobe-photoshop {
             background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Adobe Photoshop/Adobe Photoshop Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--google-data-studio {
             background: url("../images/Google Data Studio/Google Data Studio.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Google Data Studio/Google Data Studio Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--google-tag-manager {
             background: url("../images/Google Tag Manager/Google Tag Manager.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Google Tag Manager/Google Tag Manager Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--confluence {
             background: url("../images/Confluence/Confluence.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Confluence/Confluence Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--mailchimp {
             background: url("../images/Mailchimp/Mailchimp.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Mailchimp/Mailchimp Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--infusionsoft {
             background: url("../images/Infusionsoft/Infusionsoft.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Infusionsoft/Infusionsoft Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--invision-craft {
             background: url("../images/Invision Craft/Invision Craft.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Invision Craft/Invision Craft Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--craft-cms {
             background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Craft CMS/CraftCMS Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--balsamiq {
             background: url("../images/Balsamiq/Balsamiq.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Balsamiq/Balsamiq Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--jira {
             background: url("../images/JIRA/Jira.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/JIRA/Jira Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--google-analytics {
             background: url("../images/Google Analytics/Google Analytics.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Google Analytics/Google Analytics Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
-        &--google-docs {
-            background: url("../images/Google Docs/Google Docs.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Google Docs/Google Docs Colour.svg") no-repeat center center;
-            }
+        &--figma {
+            background: url("../images/Figma/Figma.jpg") no-repeat center center;
+            @include hover-image();
         }
 
-        &--google-drive {
-            background: url("../images/Google Drive/Google Drive.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Google Drive/Google Drive Colour.svg") no-repeat center center;
-            }
+        &--office {
+            background: url("../images/Office/Office.png") no-repeat center center;
+            @include hover-image();
         }
 
-        &--google-forms {
-            background: url("../images/Google Forms/Google Forms.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Google Forms/Google Forms Colour.svg") no-repeat center center;
-            }
+        &--powerbi {
+            background: url("../images/Powerbi/powerbi.png") no-repeat center center;
+            @include hover-image();
         }
 
-        &--google-sheets {
-            background: url("../images/Google Sheets/Google Sheets.svg") no-repeat center center;
+        &--mysql {
+            background: url("../images/MySQL/mysql.png") no-repeat center center;
+            @include hover-image();
+        }
 
-            &:hover {
-                background: url("../images/Google Sheets/Google Sheets Colour.svg") no-repeat center center;
-            }
+        &--drawio {
+            background: url("../images/Drawio/Drawio.png") no-repeat center center;
+            @include hover-image();
+        }
+        
+        &--canva {
+            background: url("../images/Canva/Canva.png") no-repeat center center;
+            @include hover-image();
+        }
+
+        &--google-suite {
+            background: url("../images/Google Suite/Google Suite.png") no-repeat center center;
+            @include hover-image();
         }
 
         &--hotjar {
             background: url("../images/hotjar/hotjar.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/hotjar/hotjar Colour.svg") no-repeat center center;
-            }
-        }
-
-        &--microsoft-excel {
-            background: url("../images/Miscrosoft Excel/Miscrosoft Excel.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Miscrosoft Excel/Miscrosoft Excel Colour.svg") no-repeat center center;
-            }
-        }
-
-        &--microsoft-powerpoint {
-            background: url("../images/PowerPoint/PowerPoint.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/PowerPoint/PowerPoint Colour.svg") no-repeat center center;
-            }
-        }
-
-        &--microsoft-word {
-            background: url("../images/Microsoft Word/Miscrosoft Word.svg") no-repeat center center;
-
-            &:hover {
-                background: url("../images/Microsoft Word/Miscrosoft Word Colour.svg") no-repeat center center;
-            }
+            @include hover-image();
         }
 
         &--usertesting {
             background: url("../images/User Testing/UserTesting.svg") no-repeat center center;
+            @include hover-image();
+        }
 
-            &:hover {
-                background: url("../images/User Testing/UserTesting Colour.svg") no-repeat center center;
-            }
+        &--iwork {
+            background: url("../images/iWork/iwork.png") no-repeat center center;
+            @include hover-image();
+        }
+
+        &--trello {
+            background: url("../images/Trello/Trello.png") no-repeat center center;
+            @include hover-image();
         }
 
         > img {
