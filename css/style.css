@@ -28,7 +28,7 @@ body {
     margin: 0 20px;
     font-size: 16pt;
     font-weight: 400; }
-    @media (max-width: 900px) {
+    @media (max-width: 1000px) {
       .header__link {
         margin-top: 10px; } }
     .header__link:visited {
@@ -69,7 +69,7 @@ body {
 
 .text-section {
   margin: 0 25%; }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     .text-section {
       margin: 0 10%; } }
 
@@ -127,7 +127,7 @@ body {
   .section--light {
     background: #e4e4e4;
     margin: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .section {
       margin: 0; } }
 
@@ -140,9 +140,9 @@ body {
     width: 90%;
     margin-left: 5%;
     justify-content: center; }
-    @media (max-width: 900px) {
+    @media (max-width: 1000px) {
       .education__cards {
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center; } }
 
 .education-card {
@@ -159,7 +159,7 @@ body {
   border-style: solid;
   border-width: 2px;
   transition: 0.3s ease-in-out; }
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .education-card {
       margin-bottom: 25px; } }
   .education-card i {
@@ -184,7 +184,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly; }
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .courses-container {
       flex-direction: column; } }
   @media (max-width: 600px) {
@@ -200,7 +200,7 @@ body {
   display: flex;
   height: 150px;
   overflow: hidden; }
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .course {
       margin-top: 10px;
       width: 80%;
@@ -287,9 +287,10 @@ body {
   width: 21%;
   padding: 20px 6%;
   align-self: flex-end; }
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .progress-bar {
-      width: 35%; } }
+      width: 40%;
+      padding: 20px 5%; } }
   @media (max-width: 600px) {
     .progress-bar {
       width: 100%; } }
@@ -320,10 +321,14 @@ body {
 .list-cards {
   display: flex;
   flex-direction: row;
-  width: 100%; }
-  @media (max-width: 1200px) {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center; }
+  @media (max-width: 1000px) {
     .list-cards {
-      flex-direction: column; } }
+      flex-direction: column;
+      justify-content: unset;
+      align-items: center; } }
 
 .list-card {
   width: 27%;
@@ -332,11 +337,8 @@ body {
   align-items: center;
   background: white;
   border-radius: 8px;
-  margin: 75px 3% 0; }
-  @media (max-width: 1200px) {
-    .list-card {
-      width: 90%;
-      margin: 95px 0 0 5%; } }
+  margin: 75px 3% 0;
+  min-width: 400px; }
   .list-card__icon {
     background: #e6e6e6;
     border: tomato 3px solid;

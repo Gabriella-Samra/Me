@@ -10,9 +10,8 @@ $font-normal: 400;
 $circle-size: 150px;
 $border-thickness: 1px;
 $padding: 30px;
-$mobile: 900px;
+$mobile: 1000px;
 $mobile-small: 600px;
-$good-at-this-width: 1200px;
 
 @mixin hover-image {
     filter: grayscale(1);
@@ -149,7 +148,7 @@ body {
 .text-section {
     margin: 0 25%;
 
-    @media (max-width: $mobile-small) {
+    @media (max-width: $mobile) {
         margin: 0 10%;
     }
 }
@@ -249,7 +248,7 @@ body {
         justify-content: center;
 
         @media (max-width: $mobile) {
-            flex-direction: column;
+            flex-wrap: wrap;
             align-items: center;
         }
     }
@@ -464,7 +463,8 @@ body {
     align-self: flex-end;
 
     @media(max-width: $mobile) {
-        width: 35%;
+        width: 40%;
+        padding: 20px 5%;
     }
 
     @media(max-width: $mobile-small) {
@@ -514,9 +514,13 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 
-    @media (max-width: $good-at-this-width) {
+    @media (max-width: $mobile) {
         flex-direction: column;
+        justify-content: unset;
+        align-items: center;
     }
 }
 
@@ -528,11 +532,12 @@ body {
     background: white;
     border-radius: 8px;
     margin: ($circle-size / 2) 3% 0;
+    min-width: 400px;
 
-    @media (max-width: $good-at-this-width) {
-        width: 90%;
-        margin: ($circle-size / 2) + 20px 0 0 5%;
-    }
+    // @media (max-width: 1200px) {
+    //     width: 90%;
+    //     margin: ($circle-size / 2) + 20px 0 0 5%;
+    // }
     
     &__icon {
         background: $readable-color;
