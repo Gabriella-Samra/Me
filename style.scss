@@ -20,6 +20,10 @@ $mobile-small: 600px;
     &:hover {
         filter: grayscale(0);
     }
+
+    @media (max-width: $mobile) {
+        filter: unset;
+    }
 }
 
 @mixin header-font {

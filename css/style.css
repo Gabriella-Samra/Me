@@ -396,186 +396,279 @@ body {
       background-size: cover; }
       .titled-icon__icon--adobe-animate:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--adobe-animate {
+          filter: unset; } }
     .titled-icon__icon--adobe-indesign {
       background: url("../images/Adobe InDesign/Adobe InDesign.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--adobe-indesign:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--adobe-indesign {
+          filter: unset; } }
     .titled-icon__icon--adobe-illustrator {
       background: url("../images/Adobe Illustrator/Adobe Illustrator.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--adobe-illustrator:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--adobe-illustrator {
+          filter: unset; } }
     .titled-icon__icon--asana {
       background: url("../images/Asana/Asana.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--asana:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--asana {
+          filter: unset; } }
     .titled-icon__icon--behance {
       background: url("../images/Behance/Behance.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--behance:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--behance {
+          filter: unset; } }
     .titled-icon__icon--CSS {
       background: url("../images/CSS/CSS.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--CSS:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--CSS {
+          filter: unset; } }
     .titled-icon__icon--html {
       background: url("../images/HTML/HTML.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--html:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--html {
+          filter: unset; } }
     .titled-icon__icon--javascript {
       background: url("../images/Javascript/Javascript.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--javascript:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--javascript {
+          filter: unset; } }
     .titled-icon__icon--mixpanel {
       background: url("../images/Mixpanel/Mixpanel.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--mixpanel:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--mixpanel {
+          filter: unset; } }
     .titled-icon__icon--adobe-photoshop {
       background: url("../images/Adobe Photoshop/Adobe Photoshop.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--adobe-photoshop:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--adobe-photoshop {
+          filter: unset; } }
     .titled-icon__icon--google-data-studio {
       background: url("../images/Google Data Studio/Google Data Studio.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--google-data-studio:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--google-data-studio {
+          filter: unset; } }
     .titled-icon__icon--google-tag-manager {
       background: url("../images/Google Tag Manager/Google Tag Manager.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--google-tag-manager:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--google-tag-manager {
+          filter: unset; } }
     .titled-icon__icon--confluence {
       background: url("../images/Confluence/Confluence.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--confluence:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--confluence {
+          filter: unset; } }
     .titled-icon__icon--mailchimp {
       background: url("../images/Mailchimp/Mailchimp.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--mailchimp:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--mailchimp {
+          filter: unset; } }
     .titled-icon__icon--infusionsoft {
       background: url("../images/Infusionsoft/Infusionsoft.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--infusionsoft:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--infusionsoft {
+          filter: unset; } }
     .titled-icon__icon--invision-craft {
       background: url("../images/Invision Craft/Invision Craft.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--invision-craft:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--invision-craft {
+          filter: unset; } }
     .titled-icon__icon--craft-cms {
       background: url("../images/Craft CMS/CraftCMS.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--craft-cms:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--craft-cms {
+          filter: unset; } }
     .titled-icon__icon--balsamiq {
       background: url("../images/Balsamiq/Balsamiq.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--balsamiq:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--balsamiq {
+          filter: unset; } }
     .titled-icon__icon--jira {
       background: url("../images/JIRA/Jira.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--jira:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--jira {
+          filter: unset; } }
     .titled-icon__icon--google-analytics {
       background: url("../images/Google Analytics/Google Analytics.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--google-analytics:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--google-analytics {
+          filter: unset; } }
     .titled-icon__icon--figma {
       background: url("../images/Figma/Figma.jpg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--figma:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--figma {
+          filter: unset; } }
     .titled-icon__icon--office {
       background: url("../images/Office/Office.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--office:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--office {
+          filter: unset; } }
     .titled-icon__icon--powerbi {
       background: url("../images/Powerbi/powerbi.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--powerbi:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--powerbi {
+          filter: unset; } }
     .titled-icon__icon--mysql {
       background: url("../images/MySQL/mysql.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--mysql:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--mysql {
+          filter: unset; } }
     .titled-icon__icon--drawio {
       background: url("../images/Drawio/Drawio.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--drawio:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--drawio {
+          filter: unset; } }
     .titled-icon__icon--canva {
       background: url("../images/Canva/Canva.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--canva:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--canva {
+          filter: unset; } }
     .titled-icon__icon--google-suite {
       background: url("../images/Google Suite/Google Suite.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--google-suite:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--google-suite {
+          filter: unset; } }
     .titled-icon__icon--hotjar {
       background: url("../images/hotjar/hotjar.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--hotjar:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--hotjar {
+          filter: unset; } }
     .titled-icon__icon--usertesting {
       background: url("../images/User Testing/UserTesting.svg") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--usertesting:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--usertesting {
+          filter: unset; } }
     .titled-icon__icon--iwork {
       background: url("../images/iWork/iwork.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--iwork:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--iwork {
+          filter: unset; } }
     .titled-icon__icon--trello {
       background: url("../images/Trello/Trello.png") no-repeat center center;
       filter: grayscale(1);
       background-size: cover; }
       .titled-icon__icon--trello:hover {
         filter: grayscale(0); }
+      @media (max-width: 1000px) {
+        .titled-icon__icon--trello {
+          filter: unset; } }
     .titled-icon__icon > img {
       width: 100%;
       height: 100%; }
