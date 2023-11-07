@@ -10,6 +10,9 @@ $font-normal: 400;
 $circle-size: 150px;
 $border-thickness: 1px;
 $padding: 30px;
+$mobile: 900px;
+$single-competency: 600px;
+$good-at-this-width: 1200px;
 
 @mixin hover-image {
     filter: grayscale(1);
@@ -63,12 +66,11 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    justify-content: center;
 
     &__links {
         display: flex;
         flex-direction: row;
-        justify-items: center;
+        justify-content: center;
         margin: 15px 0 0;
         flex-wrap: wrap;
     }
@@ -81,6 +83,10 @@ body {
         margin: 0 20px;
         font-size: 16pt;
         font-weight: 400;
+
+        @media (max-width: $mobile) {
+            margin-top: 10px;
+        }
 
         &:visited {
             color: $highlight-dark;
@@ -233,6 +239,11 @@ body {
         width: 90%;
         margin-left: 5%;
         justify-content: center;
+
+        @media (max-width: $mobile) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
 
@@ -246,10 +257,14 @@ body {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.55), 0 5px 15px rgba(0, 0, 0, 0.55);
     margin: 0 25px;
     width: 200px;
-    height: 200px;
+    min-height: 200px;
     border-style: solid;
     border-width: 2px;
     transition: 0.3s ease-in-out;
+
+    @media (max-width: $mobile) {
+        margin-bottom: 25px;
+    }
 
     i {
         color: inherit;
@@ -284,6 +299,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+    @media(max-width: $mobile) {
+        flex-direction: column;
+    }
 }
 
 .course {
@@ -294,6 +313,11 @@ body {
     display: flex;
     height: 150px;
     overflow: hidden;
+
+    @media(max-width: $mobile) {
+        margin-top: 10px;
+        width: 80%;
+    }
 
     &__content {
         display: flex;
@@ -396,6 +420,10 @@ body {
         &--2016 {
             color: #8e47ff;
         }
+
+        &--dashed {
+            font-size: 24pt;
+        }
     }
 
     &__description {
@@ -419,6 +447,14 @@ body {
     width: 21%;
     padding: 20px 6%;
     align-self: flex-end;
+
+    @media(max-width: $mobile) {
+        width: 35%;
+    }
+
+    @media(max-width: $single-competency) {
+        width: 80%;
+    }
 
     &__title {
         @include title;
@@ -463,6 +499,10 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+
+    @media (max-width: $good-at-this-width) {
+        flex-direction: column;
+    }
 }
 
 .list-card {
@@ -474,6 +514,11 @@ body {
     border-radius: 8px;
     margin: ($circle-size / 2) 3% 0;
 
+    @media (max-width: $good-at-this-width) {
+        width: 90%;
+        margin: ($circle-size / 2) + 20px 3% 0;
+    }
+    
     &__icon {
         background: $readable-color;
         border: $highlight 3px solid;
