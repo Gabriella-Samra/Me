@@ -69,6 +69,9 @@ body {
 
 .text-section {
   margin: 0 25%; }
+  @media (max-width: 600px) {
+    .text-section {
+      margin: 0 10%; } }
 
 .employer {
   padding: 0 0 30px; }
@@ -124,6 +127,9 @@ body {
   .section--light {
     background: #e4e4e4;
     margin: 0; }
+  @media (max-width: 900px) {
+    .section {
+      margin: 0; } }
 
 .education {
   margin-right: 50px;
@@ -181,6 +187,10 @@ body {
   @media (max-width: 900px) {
     .courses-container {
       flex-direction: column; } }
+  @media (max-width: 600px) {
+    .courses-container {
+      flex-direction: column;
+      margin: 0; } }
 
 .course {
   margin: 20px 0 0;
@@ -193,7 +203,9 @@ body {
   @media (max-width: 900px) {
     .course {
       margin-top: 10px;
-      width: 80%; } }
+      width: 80%;
+      height: unset;
+      min-height: 150px; } }
   .course__content {
     display: flex;
     flex-direction: column;
@@ -280,7 +292,7 @@ body {
       width: 35%; } }
   @media (max-width: 600px) {
     .progress-bar {
-      width: 80%; } }
+      width: 100%; } }
   .progress-bar__title {
     font-weight: 300;
     text-align: center; }
@@ -324,7 +336,7 @@ body {
   @media (max-width: 1200px) {
     .list-card {
       width: 90%;
-      margin: 95px 3% 0; } }
+      margin: 95px 0 0 5%; } }
   .list-card__icon {
     background: #e6e6e6;
     border: tomato 3px solid;

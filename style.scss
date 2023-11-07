@@ -11,7 +11,7 @@ $circle-size: 150px;
 $border-thickness: 1px;
 $padding: 30px;
 $mobile: 900px;
-$single-competency: 600px;
+$mobile-small: 600px;
 $good-at-this-width: 1200px;
 
 @mixin hover-image {
@@ -148,6 +148,10 @@ body {
 
 .text-section {
     margin: 0 25%;
+
+    @media (max-width: $mobile-small) {
+        margin: 0 10%;
+    }
 }
 
 .employer {
@@ -228,6 +232,10 @@ body {
         background: $background-light;
         margin: 0;
     }
+
+    @media (max-width: $mobile) {
+        margin: 0;
+    }
 }
 
 .education {
@@ -303,6 +311,11 @@ body {
     @media(max-width: $mobile) {
         flex-direction: column;
     }
+
+    @media(max-width: $mobile-small) {
+        flex-direction: column;
+        margin: 0;
+    }
 }
 
 .course {
@@ -317,6 +330,8 @@ body {
     @media(max-width: $mobile) {
         margin-top: 10px;
         width: 80%;
+        height: unset;
+        min-height: 150px;
     }
 
     &__content {
@@ -452,8 +467,8 @@ body {
         width: 35%;
     }
 
-    @media(max-width: $single-competency) {
-        width: 80%;
+    @media(max-width: $mobile-small) {
+        width: 100%;
     }
 
     &__title {
@@ -516,7 +531,7 @@ body {
 
     @media (max-width: $good-at-this-width) {
         width: 90%;
-        margin: ($circle-size / 2) + 20px 3% 0;
+        margin: ($circle-size / 2) + 20px 0 0 5%;
     }
     
     &__icon {
