@@ -38,19 +38,34 @@ function linkAllIdAnchors() {
         });
 }
 
+function getHideableBlocksForButton(expanderButton) {
+    var block = expanderButton.closest(".expandable").first();
+    var items = block
+        .children(".expandable__item")
+        .filter(function (index, item) {
+            return $(item).data("should-hide");
+        });
+    return items;
+}
+
+function getDefaultTextForExpanderButton(expanderButton, blocks) {
+    blocks = blocks || getHideableBlocksForButton(expanderButton);
+    return `View ${blocks.length} more projects`;
+}
+
 function initializeExpanders() {
+    $(".expandable__button").each((index, button) => {
+        const jButton = $(button);
+        const buttonText = getDefaultTextForExpanderButton(jButton);
+        jButton.text(buttonText);
+    });
     $(".expandable__button")
         .click(function (event) {
             var button = $(event.target);
             var isExpanded = button.data("is-expanded");
-            var defaultText = button.data("default");
-            var expandedText = button.data("expanded");
-            var block = button.closest(".expandable").first();
-            var items = block
-                .children(".expandable__item")
-                .filter(function (index, item) {
-                    return !!$(item).data("should-hide");
-                });
+            const items = getHideableBlocksForButton(button);
+            const expandedText = "Hide open projects";
+            const defaultText = getDefaultTextForExpanderButton(button, items);
             if (isExpanded) {
                 button.text(defaultText);
                 items.addClass("expandable__item--hidden");

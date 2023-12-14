@@ -101,6 +101,10 @@ body {
     margin: 5px;
     text-transform: lowercase;
     font-size: 10pt; }
+  .project__result {
+    font-weight: bold;
+    color: tomato;
+    padding-top: 10px; }
 
 .separator-title {
   display: flex;
