@@ -163,6 +163,8 @@ body {
     &__title {
         font-size: 18pt;
         line-height: 22pt;
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
 
@@ -197,8 +199,6 @@ body {
     }
 
     &__result {
-        font-weight: bold;
-        color: $highlight;
         padding-top: 10px;
     }
 }
